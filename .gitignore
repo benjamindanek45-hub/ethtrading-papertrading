@@ -1,0 +1,6 @@
+# Zugangsdaten duerfen dieses Repo nie erreichen
+telegram.env
+*.env
+*.key
+*.pem
+id_*
