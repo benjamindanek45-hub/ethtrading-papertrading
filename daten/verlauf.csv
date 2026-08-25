@@ -1,0 +1,3 @@
+zeit,depot,wert,rendite_pct,cash_anteil,orders_heute,orders_gesamt,btc_signal,btc_skala,eth_signal,eth_skala,btc_abw_pct,eth_abw_pct
+2026-08-25T00:02:37.566319+00:00,live,9990.01,-0.1,0.0,1,1,1.0,1.0,1.0,1.0,-0.0406,-0.0419
+2026-08-25T00:02:37.566319+00:00,schatten,9990.01,-0.1,0.0,2,2,1.0,1.0,1.0,1.0,-0.0406,-0.0419
