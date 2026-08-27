@@ -1,13 +1,13 @@
 {
-  "zeit": "2026-08-26T18:57:00.359984+00:00",
-  "alles_gut": false,
+  "zeit": "2026-08-27T00:30:39.883996+00:00",
+  "alles_gut": true,
   "statusbot": "active",
   "server": {
     "platte_pct": 47,
     "platte_frei": "39G",
-    "last": "0.35 0.36 0.40",
+    "last": "0.44 0.37 0.38",
     "speicher_frei_pct": 88,
-    "api_ms": 361,
+    "api_ms": 374,
     "uhr_abweichung_s": 0.1
   },
   "server_probleme": [],
@@ -19,7 +19,7 @@
       "probleme": [],
       "hinweise": [],
       "timer": "active",
-      "lauf_vor_h": 18.9,
+      "lauf_vor_h": 0.5,
       "exit": "0",
       "live": null,
       "positionen": null,
@@ -36,7 +36,7 @@
       "probleme": [],
       "hinweise": [],
       "timer": "active",
-      "lauf_vor_h": 18.8,
+      "lauf_vor_h": 0.4,
       "exit": "0",
       "live": true,
       "positionen": 0,
@@ -50,23 +50,17 @@
     {
       "kurz": "ruecklauf",
       "name": "Projekt 3 — Ruecklauf",
-      "probleme": [
-        "15 Markt/Maerkte uebersprungen — der Lauf hat nicht gehandelt"
-      ],
-      "hinweise": [
-        "2026-08-26T00:16:11.299563+00:00  WARN   XLMUSDT: uebersprungen â€” letzte Kerze 32 h alt",
-        "2026-08-26T00:16:13.876308+00:00  WARN   TRXUSDT: uebersprungen â€” letzte Kerze 32 h alt",
-        "2026-08-26T00:16:16.494965+00:00  WARN   ATOMUSDT: uebersprungen â€” letzte Kerze 32 h alt"
-      ],
+      "probleme": [],
+      "hinweise": [],
       "timer": "active",
-      "lauf_vor_h": 18.7,
+      "lauf_vor_h": 0.2,
       "exit": "0",
       "live": true,
       "positionen": 0,
       "ergebnis_pct": 0.0,
       "im_markt_pct": 0,
       "fehlerzeilen": 0,
-      "uebersprungen": 15,
+      "uebersprungen": 0,
       "slippage_median_pct": null,
       "slippage_trades": null
     }
