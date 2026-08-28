@@ -1,13 +1,13 @@
 {
-  "zeit": "2026-08-27T00:30:39.883996+00:00",
+  "zeit": "2026-08-28T00:30:17.369067+00:00",
   "alles_gut": true,
   "statusbot": "active",
   "server": {
     "platte_pct": 47,
     "platte_frei": "39G",
-    "last": "0.44 0.37 0.38",
+    "last": "0.44 0.35 0.35",
     "speicher_frei_pct": 88,
-    "api_ms": 374,
+    "api_ms": 300,
     "uhr_abweichung_s": 0.1
   },
   "server_probleme": [],
