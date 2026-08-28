@@ -1,7 +1,7 @@
 {
   "routine": "wetter",
-  "stempel": "2026-08-28T05:45:40+00:00",
+  "stempel": "2026-08-28T08:45:10+00:00",
   "melden": true,
-  "text": "Trocken bis 09:00 Uhr, danach Regen.",
-  "hinweis": "Vorhersage 07:00=0.0mm, 08:00=0.0mm, 09:00=0.4mm"
+  "text": "Bis 13 Uhr trocken, aber unsicher (78% Regenwahrscheinlichkeit).",
+  "hinweis": "Vorhersage 10:00=0.0mm, 11:00=0.0mm, 12:00=0.0mm"
 }
