@@ -1,7 +1,7 @@
 {
   "routine": "wetter",
-  "stempel": "2026-09-02T08:46:32+00:00",
-  "melden": true,
-  "text": "Die naechsten 3 Stunden bleibt es trocken.",
-  "hinweis": "Vorhersage 10:00=0.0mm, 11:00=0.0mm, 12:00=0.0mm"
+  "stempel": "2026-09-02T16:34:41+00:00",
+  "melden": false,
+  "text": "",
+  "hinweis": "trocken bis 21:34, hoechste Wahrscheinlichkeit 5%"
 }
