@@ -1,8 +1,8 @@
 {
   "routine": "wetter",
-  "stempel": "2026-09-03T05:46:26+00:00",
-  "melden": true,
-  "kennung": "wetter-2026-09-03T05-b88ab3",
-  "text": "Jo Benni, nimm heute frueh nen Schirm mit, weil es ab 10:00 Uhr regnen soll.",
-  "hinweis": "15min, 10:00=0.2mm, 10:15=0.2mm, 10:30=0.2mm, 10:45=0.2mm"
+  "stempel": "2026-09-03T08:16:10+00:00",
+  "melden": false,
+  "kennung": "",
+  "text": "",
+  "hinweis": "Pause 12:00-12:30 trocken, Wahrscheinlichkeit 70%"
 }
