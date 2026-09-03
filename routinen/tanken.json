@@ -1,8 +1,8 @@
 {
   "routine": "tanken",
-  "stempel": "2026-09-03T16:43:06+00:00",
+  "stempel": "2026-09-03T16:44:39+00:00",
   "melden": false,
   "kennung": "",
   "text": "",
-  "hinweis": "FEHLER: RuntimeError: tankerkoenig.key fehlt"
+  "hinweis": "kein Tiefpunkt | 2.269 EUR bei 14 offenen Stellen; 14-Tage-Mitte 2.169, Schwelle 2.139; 229 Messungen an 8 Tagen"
 }
