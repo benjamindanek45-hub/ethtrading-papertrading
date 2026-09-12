@@ -1,13 +1,13 @@
 {
-  "zeit": "2026-09-11T00:30:03.939612+00:00",
+  "zeit": "2026-09-12T00:30:05.445777+00:00",
   "alles_gut": true,
   "statusbot": "active",
   "server": {
     "platte_pct": 47,
     "platte_frei": "39G",
-    "last": "0.66 0.61 0.51",
-    "speicher_frei_pct": 82,
-    "api_ms": 370,
+    "last": "0.14 0.18 0.18",
+    "speicher_frei_pct": 84,
+    "api_ms": 336,
     "uhr_abweichung_s": 0.1
   },
   "server_probleme": [],
@@ -19,7 +19,7 @@
       "probleme": [],
       "hinweise": [],
       "timer": "active",
-      "lauf_vor_h": 0.5,
+      "lauf_vor_h": 0.4,
       "exit": "0",
       "live": null,
       "positionen": null,
