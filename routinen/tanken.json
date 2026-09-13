@@ -1,9 +1,9 @@
 {
   "routine": "tanken",
-  "stempel": "2026-09-13T10:45:48+00:00",
+  "stempel": "2026-09-13T11:16:01+00:00",
   "melden": false,
   "kennung": "",
   "text": "",
-  "hinweis": "kein Tiefpunkt | 2.459 EUR bei 13 offenen Stellen; bester Tagestiefstpreis 2.239 aus 7 Tagen, Schwelle 2.219; 290 Messungen",
+  "hinweis": "nur Messung, keine Zustellung faellig | 2.429 EUR bei 13 offenen Stellen; bester Tagestiefstpreis 2.239 aus 7 Tagen, Schwelle 2.219; 289 Messungen",
   "erwartet_alle": "12h"
 }
