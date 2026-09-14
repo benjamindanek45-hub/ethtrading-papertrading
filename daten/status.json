@@ -1,16 +1,21 @@
 {
-  "zeit": "2026-09-13T00:30:05.833106+00:00",
-  "alles_gut": true,
+  "zeit": "2026-09-14T00:30:03.687250+00:00",
+  "alles_gut": false,
   "statusbot": "active",
   "server": {
     "platte_pct": 47,
     "platte_frei": "39G",
-    "last": "0.41 0.29 0.22",
+    "last": "0.73 0.51 0.53",
     "speicher_frei_pct": 84,
-    "api_ms": 357,
-    "uhr_abweichung_s": 0.1
+    "api_ms": 400,
+    "uhr_abweichung_s": 0.1,
+    "ausgefallen": [
+      "ausbruchbot.service"
+    ]
   },
-  "server_probleme": [],
+  "server_probleme": [
+    "ausgefallene Dienste: ausbruchbot.service"
+  ],
   "bruecke_probleme": [],
   "bots": [
     {
@@ -33,16 +38,21 @@
     {
       "kurz": "ausbruch",
       "name": "Projekt 2 — Ausbruch",
-      "probleme": [],
-      "hinweise": [],
+      "probleme": [
+        "letzter Lauf endete mit Fehlercode 1",
+        "1 Fehlerzeile(n) im Protokoll"
+      ],
+      "hinweise": [
+        "2026-09-14T00:06:55.883830+00:00  FEHLER  ABBRUCH: /api/v2/mix/market/candles nach 4 Versuchen: HTTPSConnectionPool(host='api.bitget.com', port=443): "
+      ],
       "timer": "active",
       "lauf_vor_h": 0.4,
-      "exit": "0",
+      "exit": "1",
       "live": true,
       "positionen": 0,
       "ergebnis_pct": 0.0,
       "im_markt_pct": 0,
-      "fehlerzeilen": 0,
+      "fehlerzeilen": 1,
       "uebersprungen": 0,
       "slippage_median_pct": null,
       "slippage_trades": null
