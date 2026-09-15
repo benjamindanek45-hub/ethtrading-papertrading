@@ -1,21 +1,16 @@
 {
-  "zeit": "2026-09-14T00:30:03.687250+00:00",
+  "zeit": "2026-09-15T00:30:09.903656+00:00",
   "alles_gut": false,
   "statusbot": "active",
   "server": {
     "platte_pct": 47,
     "platte_frei": "39G",
-    "last": "0.73 0.51 0.53",
-    "speicher_frei_pct": 84,
-    "api_ms": 400,
-    "uhr_abweichung_s": 0.1,
-    "ausgefallen": [
-      "ausbruchbot.service"
-    ]
+    "last": "0.33 0.38 0.42",
+    "speicher_frei_pct": 86,
+    "api_ms": 311,
+    "uhr_abweichung_s": 0.1
   },
-  "server_probleme": [
-    "ausgefallene Dienste: ausbruchbot.service"
-  ],
+  "server_probleme": [],
   "bruecke_probleme": [],
   "bots": [
     {
@@ -39,7 +34,6 @@
       "kurz": "ausbruch",
       "name": "Projekt 2 — Ausbruch",
       "probleme": [
-        "letzter Lauf endete mit Fehlercode 1",
         "1 Fehlerzeile(n) im Protokoll"
       ],
       "hinweise": [
@@ -47,7 +41,7 @@
       ],
       "timer": "active",
       "lauf_vor_h": 0.4,
-      "exit": "1",
+      "exit": "0",
       "live": true,
       "positionen": 0,
       "ergebnis_pct": 0.0,
