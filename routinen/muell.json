@@ -1,9 +1,9 @@
 {
   "routine": "muell",
-  "stempel": "2026-09-15T12:46:09+00:00",
-  "melden": false,
-  "kennung": "",
-  "text": "",
+  "stempel": "2026-09-16T12:45:08+00:00",
+  "melden": true,
+  "kennung": "muell-2026-09-16T12-e2917d",
+  "text": "Morgen rausstellen: Altpapier.",
   "hinweis": "Hermann-Löns-Weg (Bezirk 132), Hausmüll 2-wö., 30 eigene von 65 Terminen, naechster 2026-09-17",
   "erwartet_alle": "36h"
 }
