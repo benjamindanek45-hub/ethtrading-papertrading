@@ -1,13 +1,13 @@
 {
-  "zeit": "2026-09-15T00:30:09.903656+00:00",
+  "zeit": "2026-09-16T00:30:10.137890+00:00",
   "alles_gut": false,
   "statusbot": "active",
   "server": {
     "platte_pct": 47,
     "platte_frei": "39G",
-    "last": "0.33 0.38 0.42",
+    "last": "0.31 0.40 0.37",
     "speicher_frei_pct": 86,
-    "api_ms": 311,
+    "api_ms": 389,
     "uhr_abweichung_s": 0.1
   },
   "server_probleme": [],
@@ -34,19 +34,19 @@
       "kurz": "ausbruch",
       "name": "Projekt 2 — Ausbruch",
       "probleme": [
-        "1 Fehlerzeile(n) im Protokoll"
+        "Timer ist inactive"
       ],
       "hinweise": [
-        "2026-09-14T00:06:55.883830+00:00  FEHLER  ABBRUCH: /api/v2/mix/market/candles nach 4 Versuchen: HTTPSConnectionPool(host='api.bitget.com', port=443): "
+        "systemd kennt noch keinen abgeschlossenen Lauf"
       ],
-      "timer": "active",
-      "lauf_vor_h": 0.4,
+      "timer": "inactive",
+      "lauf_vor_h": null,
       "exit": "0",
       "live": true,
       "positionen": 0,
       "ergebnis_pct": 0.0,
       "im_markt_pct": 0,
-      "fehlerzeilen": 1,
+      "fehlerzeilen": 0,
       "uebersprungen": 0,
       "slippage_median_pct": null,
       "slippage_trades": null
