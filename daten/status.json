@@ -1,14 +1,14 @@
 {
-  "zeit": "2026-09-18T13:59:27.424112+00:00",
+  "zeit": "2026-09-19T00:30:09.979638+00:00",
   "alles_gut": true,
   "statusbot": "active",
   "server": {
     "platte_pct": 47,
     "platte_frei": "39G",
-    "last": "0.36 0.50 0.52",
-    "speicher_frei_pct": 83,
-    "api_ms": 370,
-    "uhr_abweichung_s": 0.2
+    "last": "0.28 0.30 0.27",
+    "speicher_frei_pct": 85,
+    "api_ms": 342,
+    "uhr_abweichung_s": 0.1
   },
   "server_probleme": [],
   "bruecke_probleme": [],
@@ -20,7 +20,7 @@
       "probleme": [],
       "hinweise": [],
       "timer": "active",
-      "lauf_vor_h": 13.9,
+      "lauf_vor_h": 0.5,
       "exit": "0",
       "live": null,
       "positionen": null,
@@ -38,7 +38,7 @@
       "probleme": [],
       "hinweise": [],
       "timer": "active",
-      "lauf_vor_h": 13.8,
+      "lauf_vor_h": 0.3,
       "exit": "0",
       "live": true,
       "positionen": 0,
@@ -49,18 +49,18 @@
       "slippage_median_pct": null,
       "slippage_trades": null,
       "log": [
-        "2026-09-15T12:33:01.586119+00:00  INFO   Fertig. 2 Kontrakte, 1 in Beobachtung, 1 offen, 0 erledigt.",
-        "2026-09-16T00:10:06.991932+00:00  INFO   === Lauf LIVE ===",
-        "2026-09-16T00:10:07.659168+00:00  INFO   CVXSTOCKUSDT: neu gelistet, wird morgen bewertet.",
-        "2026-09-16T00:10:07.660101+00:00  INFO   Fertig. 787 Kontrakte, 1 in Beobachtung, 0 offen, 0 erledigt.",
-        "2026-09-17T00:10:06.971592+00:00  INFO   === Lauf LIVE ===",
-        "2026-09-17T00:10:07.887937+00:00  INFO   CVXSTOCKUSDT: verworfen — Umsatz 0.1 Mio unter 20.",
-        "2026-09-17T00:10:07.897463+00:00  INFO   Fertig. 787 Kontrakte, 0 in Beobachtung, 0 offen, 0 erledigt.",
-        "2026-09-18T00:10:06.962524+00:00  INFO   === Lauf LIVE ===",
-        "2026-09-18T00:10:07.635279+00:00  INFO   QLDUSDT: neu gelistet, wird morgen bewertet.",
-        "2026-09-18T00:10:07.635510+00:00  INFO   IBITUSDT: neu gelistet, wird morgen bewertet.",
-        "2026-09-18T00:10:07.635621+00:00  INFO   CLSKUSDT: neu gelistet, wird morgen bewertet.",
-        "2026-09-18T00:10:07.636484+00:00  INFO   Fertig. 790 Kontrakte, 3 in Beobachtung, 0 offen, 0 erledigt."
+        "2026-09-19T00:10:06.965162+00:00  INFO   === Lauf LIVE ===",
+        "2026-09-19T00:10:07.913486+00:00  INFO   QLDUSDT: verworfen — Umsatz 0.0 Mio unter 20, tokenisierte Aktie.",
+        "2026-09-19T00:10:08.192907+00:00  INFO   IBITUSDT: verworfen — Umsatz 0.0 Mio unter 20, tokenisierte Aktie.",
+        "2026-09-19T00:10:08.491493+00:00  INFO   CLSKUSDT: verworfen — Umsatz 0.0 Mio unter 20, tokenisierte Aktie.",
+        "2026-09-19T00:10:08.501792+00:00  INFO   SDGRUSDT: neu gelistet, wird morgen bewertet.",
+        "2026-09-19T00:10:08.501951+00:00  INFO   GNRCUSDT: neu gelistet, wird morgen bewertet.",
+        "2026-09-19T00:10:08.502041+00:00  INFO   PATHUSDT: neu gelistet, wird morgen bewertet.",
+        "2026-09-19T00:10:08.502119+00:00  INFO   CYPHUSDT: neu gelistet, wird morgen bewertet.",
+        "2026-09-19T00:10:08.502203+00:00  INFO   HUTUSDT: neu gelistet, wird morgen bewertet.",
+        "2026-09-19T00:10:08.502318+00:00  INFO   AGPUUSDT: neu gelistet, wird morgen bewertet.",
+        "2026-09-19T00:10:08.502402+00:00  INFO   STONKUSDT: neu gelistet, wird morgen bewertet.",
+        "2026-09-19T00:10:08.503216+00:00  INFO   Fertig. 797 Kontrakte, 7 in Beobachtung, 0 offen, 0 erledigt."
       ]
     },
     {
@@ -69,7 +69,7 @@
       "probleme": [],
       "hinweise": [],
       "timer": "active",
-      "lauf_vor_h": 13.7,
+      "lauf_vor_h": 0.2,
       "exit": "0",
       "live": true,
       "positionen": 0,
@@ -80,18 +80,18 @@
       "slippage_median_pct": null,
       "slippage_trades": null,
       "log": [
-        "2026-09-18T00:15:23.107614+00:00  INFO   ADAUSDT: kein Signal â€” 10-Tage-Rendite -6.82 %, Schwelle -20.65 %",
-        "2026-09-18T00:15:25.871395+00:00  INFO   SOLUSDT: kein Signal â€” 10-Tage-Rendite -2.00 %, Schwelle -18.38 %",
-        "2026-09-18T00:15:28.515168+00:00  INFO   DOGEUSDT: kein Signal â€” 10-Tage-Rendite -7.84 %, Schwelle -19.00 %",
-        "2026-09-18T00:15:31.127467+00:00  INFO   DOTUSDT: kein Signal â€” 10-Tage-Rendite -1.11 %, Schwelle -21.13 %",
-        "2026-09-18T00:15:33.748707+00:00  INFO   AVAXUSDT: kein Signal â€” 10-Tage-Rendite -6.00 %, Schwelle -21.76 %",
-        "2026-09-18T00:15:36.380698+00:00  INFO   LTCUSDT: kein Signal â€” 10-Tage-Rendite -3.02 %, Schwelle -15.89 %",
-        "2026-09-18T00:15:38.989093+00:00  INFO   LINKUSDT: kein Signal â€” 10-Tage-Rendite -11.60 %, Schwelle -17.70 %",
-        "2026-09-18T00:15:41.628141+00:00  INFO   BCHUSDT: kein Signal â€” 10-Tage-Rendite -10.25 %, Schwelle -17.80 %",
-        "2026-09-18T00:15:44.261779+00:00  INFO   XLMUSDT: kein Signal â€” 10-Tage-Rendite -1.08 %, Schwelle -16.19 %",
-        "2026-09-18T00:15:46.882084+00:00  INFO   TRXUSDT: kein Signal â€” 10-Tage-Rendite +0.16 %, Schwelle -6.67 %",
-        "2026-09-18T00:15:49.467432+00:00  INFO   ATOMUSDT: kein Signal â€” 10-Tage-Rendite -5.18 %, Schwelle -17.44 %",
-        "2026-09-18T00:15:49.467924+00:00  INFO   Fertig. 0 gekauft, 0 verkauft, 0 uebersprungen."
+        "2026-09-19T00:15:22.386812+00:00  INFO   ADAUSDT: kein Signal â€” 10-Tage-Rendite -4.06 %, Schwelle -20.65 %",
+        "2026-09-19T00:15:25.218422+00:00  INFO   SOLUSDT: kein Signal â€” 10-Tage-Rendite +6.60 %, Schwelle -18.38 %",
+        "2026-09-19T00:15:27.853779+00:00  INFO   DOGEUSDT: kein Signal â€” 10-Tage-Rendite -3.49 %, Schwelle -19.00 %",
+        "2026-09-19T00:15:30.967870+00:00  INFO   DOTUSDT: kein Signal â€” 10-Tage-Rendite -5.27 %, Schwelle -21.13 %",
+        "2026-09-19T00:15:33.587671+00:00  INFO   AVAXUSDT: kein Signal â€” 10-Tage-Rendite +0.65 %, Schwelle -21.76 %",
+        "2026-09-19T00:15:36.375474+00:00  INFO   LTCUSDT: kein Signal â€” 10-Tage-Rendite +1.64 %, Schwelle -15.89 %",
+        "2026-09-19T00:15:39.024407+00:00  INFO   LINKUSDT: kein Signal â€” 10-Tage-Rendite -4.24 %, Schwelle -17.70 %",
+        "2026-09-19T00:15:41.954430+00:00  INFO   BCHUSDT: kein Signal â€” 10-Tage-Rendite -2.65 %, Schwelle -17.80 %",
+        "2026-09-19T00:15:44.581398+00:00  INFO   XLMUSDT: kein Signal â€” 10-Tage-Rendite -0.13 %, Schwelle -16.19 %",
+        "2026-09-19T00:15:47.230759+00:00  INFO   TRXUSDT: kein Signal â€” 10-Tage-Rendite +0.07 %, Schwelle -6.67 %",
+        "2026-09-19T00:15:49.843331+00:00  INFO   ATOMUSDT: kein Signal â€” 10-Tage-Rendite -6.75 %, Schwelle -17.44 %",
+        "2026-09-19T00:15:49.843694+00:00  INFO   Fertig. 0 gekauft, 0 verkauft, 0 uebersprungen."
       ]
     }
   ]
