@@ -1,9 +1,9 @@
 {
   "routine": "muell",
-  "stempel": "2026-09-26T12:45:37+00:00",
-  "melden": false,
-  "kennung": "",
-  "text": "",
+  "stempel": "2026-09-27T12:46:14+00:00",
+  "melden": true,
+  "kennung": "muell-2026-09-27T12-fedbf8",
+  "text": "Morgen rausstellen: Gelber Sack.",
   "hinweis": "Hermann-Löns-Weg (Bezirk 132), Hausmüll 2-wö., 27 eigene von 58 Terminen, naechster 2026-09-28",
   "erwartet_alle": "36h"
 }
