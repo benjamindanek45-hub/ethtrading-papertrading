@@ -1,9 +1,9 @@
 {
   "routine": "tanken",
-  "stempel": "2026-09-30T09:16:09+00:00",
-  "melden": false,
-  "kennung": "",
-  "text": "",
-  "hinweis": "nur Messung, keine Zustellung faellig | 2.229 EUR bei 14 offenen Stellen; bester Tagestiefstpreis 2.249 aus 7 Tagen, Schwelle 2.229; 287 Messungen",
+  "stempel": "2026-09-30T09:45:57+00:00",
+  "melden": true,
+  "kennung": "tanken-2026-09-30T09-256c40",
+  "text": "E5 2.229 bei OKTAN in Neukirchen-Vluyn, Niederrheinallee 363 - 2 Cent unter dem besten Preis der letzten Tage, 1.1 km entfernt.",
+  "hinweis": "2.229 EUR bei 14 offenen Stellen; bester Tagestiefstpreis 2.249 aus 7 Tagen, Schwelle 2.229; 287 Messungen",
   "erwartet_alle": "12h"
 }
