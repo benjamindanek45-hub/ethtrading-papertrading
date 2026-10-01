@@ -1,9 +1,9 @@
 {
   "routine": "wetter",
-  "stempel": "2026-10-01T05:32:08+00:00",
+  "stempel": "2026-10-01T08:32:23+00:00",
   "melden": true,
-  "kennung": "wetter-2026-10-01T05-3c721f",
-  "text": "Jo Benni, es regnet jetzt schon und in deiner Pause um 09:00 auch noch - denk an den Schirm.",
-  "hinweis": "Pause 09:00-09:15, 15min: 09:00=0.3mm",
+  "kennung": "wetter-2026-10-01T08-e86625",
+  "text": "Jo Benni, es regnet jetzt schon und in deiner Pause um 12:00 auch noch - denk an den Schirm.",
+  "hinweis": "Pause 12:00-12:30, 15min: 12:00=0.1mm, 12:15=0.1mm",
   "erwartet_alle": "36h"
 }
