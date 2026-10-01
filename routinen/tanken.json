@@ -1,9 +1,9 @@
 {
   "routine": "tanken",
-  "stempel": "2026-10-01T12:45:39+00:00",
-  "melden": true,
-  "kennung": "tanken-2026-10-01T12-528d9b",
-  "text": "E5 2.149 bei Shell in Moers, Neukirchener Str. 3 - 8 Cent unter dem besten Preis der letzten Tage, 4.3 km entfernt.",
-  "hinweis": "2.149 EUR bei 14 offenen Stellen; bester Tagestiefstpreis 2.229 aus 7 Tagen, Schwelle 2.209; 287 Messungen",
+  "stempel": "2026-10-01T13:16:10+00:00",
+  "melden": false,
+  "kennung": "",
+  "text": "",
+  "hinweis": "nur Messung, keine Zustellung faellig | 2.149 EUR bei 14 offenen Stellen; bester Tagestiefstpreis 2.229 aus 7 Tagen, Schwelle 2.209; 287 Messungen",
   "erwartet_alle": "12h"
 }
