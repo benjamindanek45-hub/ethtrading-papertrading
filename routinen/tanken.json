@@ -1,9 +1,9 @@
 {
   "routine": "tanken",
-  "stempel": "2026-10-01T14:46:39+00:00",
-  "melden": true,
-  "kennung": "tanken-2026-10-01T14-e6b657",
-  "text": "E5 2.139 bei PM in Neukirchen-Vluyn, Andreas-Braem-Str. 30 - 9 Cent unter dem besten Preis der letzten Tage, 3.0 km entfernt.",
-  "hinweis": "2.139 EUR bei 14 offenen Stellen; bester Tagestiefstpreis 2.229 aus 7 Tagen, Schwelle 2.209; 287 Messungen",
+  "stempel": "2026-10-01T15:15:39+00:00",
+  "melden": false,
+  "kennung": "",
+  "text": "",
+  "hinweis": "nur Messung, keine Zustellung faellig | 2.129 EUR bei 14 offenen Stellen; bester Tagestiefstpreis 2.229 aus 7 Tagen, Schwelle 2.209; 287 Messungen",
   "erwartet_alle": "12h"
 }
