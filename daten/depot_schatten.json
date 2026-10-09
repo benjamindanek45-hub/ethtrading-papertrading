@@ -1,8 +1,8 @@
 {
-  "cash": 0.0,
+  "cash": 1282.0818168923704,
   "bestand": {
     "BTCUSDT": 0.06332266430869951,
-    "ETHUSDT": 2.0110709394826
+    "ETHUSDT": 1.492970779585607
   },
   "budget": {
     "BTCUSDT": 0.5,
@@ -10,6 +10,6 @@
   },
   "start_kapital": 10000.0,
   "erstellt": "2026-08-24T15:39:19.137568+00:00",
-  "laeufe": 45,
-  "orders": 2
+  "laeufe": 46,
+  "orders": 3
 }
