@@ -1,8 +1,8 @@
 {
   "routine": "wetter",
-  "stempel": "2026-10-09T08:33:38+00:00",
-  "melden": true,
-  "kennung": "wetter-2026-10-09T08-e86625",
-  "text": "Jo Benni, es regnet jetzt schon und in deiner Pause um 12:00 auch noch - denk an den Schirm.",
-  "hinweis": "Pause 12:00-12:30, 15min: 12:00=0.1mm, 12:15=0.1mm"
+  "stempel": "2026-10-12T05:32:54+00:00",
+  "melden": false,
+  "kennung": "",
+  "text": "",
+  "hinweis": "Pause 09:00-09:15 trocken, Wahrscheinlichkeit 0%"
 }
