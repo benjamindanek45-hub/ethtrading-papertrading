@@ -1,13 +1,13 @@
 {
-  "zeit": "2026-10-13T00:30:09.154790+00:00",
+  "zeit": "2026-10-14T00:30:12.880672+00:00",
   "alles_gut": true,
   "statusbot": "active",
   "server": {
     "platte_pct": 48,
     "platte_frei": "38G",
-    "last": "0.60 0.48 0.45",
+    "last": "0.29 0.35 0.37",
     "speicher_frei_pct": 80,
-    "api_ms": 289,
+    "api_ms": 355,
     "uhr_abweichung_s": 0.1
   },
   "server_probleme": [],
@@ -49,18 +49,18 @@
       "slippage_median_pct": null,
       "slippage_trades": null,
       "log": [
-        "2026-10-11T00:10:01.931604+00:00  INFO   Fertig. 824 Kontrakte, 0 in Beobachtung, 0 offen, 0 erledigt.",
-        "2026-10-12T00:10:22.631449+00:00  INFO   === Lauf LIVE ===",
-        "2026-10-12T00:10:23.276225+00:00  INFO   Fertig. 824 Kontrakte, 0 in Beobachtung, 0 offen, 0 erledigt.",
-        "2026-10-13T00:10:22.614263+00:00  INFO   === Lauf LIVE ===",
-        "2026-10-13T00:10:23.291688+00:00  INFO   KAKAOUSDT: neu gelistet, wird morgen bewertet.",
-        "2026-10-13T00:10:23.291915+00:00  INFO   KBFGUSDT: neu gelistet, wird morgen bewertet.",
-        "2026-10-13T00:10:23.292058+00:00  INFO   SSBIOLOGICSUSDT: neu gelistet, wird morgen bewertet.",
-        "2026-10-13T00:10:23.292210+00:00  INFO   LGENERGYUSDT: neu gelistet, wird morgen bewertet.",
-        "2026-10-13T00:10:23.292451+00:00  INFO   KIAUSDT: neu gelistet, wird morgen bewertet.",
-        "2026-10-13T00:10:23.292614+00:00  INFO   SNPSUSDT: neu gelistet, wird morgen bewertet.",
-        "2026-10-13T00:10:23.292836+00:00  INFO   ZCSHUSDT: neu gelistet, wird morgen bewertet.",
-        "2026-10-13T00:10:23.293708+00:00  INFO   Fertig. 831 Kontrakte, 7 in Beobachtung, 0 offen, 0 erledigt."
+        "2026-10-14T00:10:23.773636+00:00  INFO   KBFGUSDT: verworfen — Umsatz 0.0 Mio unter 20, tokenisierte Aktie.",
+        "2026-10-14T00:10:24.050868+00:00  INFO   SSBIOLOGICSUSDT: verworfen — Umsatz 0.0 Mio unter 20, tokenisierte Aktie.",
+        "2026-10-14T00:10:24.338408+00:00  INFO   LGENERGYUSDT: verworfen — Umsatz 0.3 Mio unter 20, tokenisierte Aktie.",
+        "2026-10-14T00:10:24.626371+00:00  INFO   KIAUSDT: verworfen — Umsatz 0.0 Mio unter 20, tokenisierte Aktie.",
+        "2026-10-14T00:10:24.915221+00:00  INFO   SNPSUSDT: verworfen — Umsatz 0.0 Mio unter 20, tokenisierte Aktie.",
+        "2026-10-14T00:10:25.185361+00:00  INFO   ZCSHUSDT: verworfen — Umsatz 0.2 Mio unter 20, tokenisierte Aktie.",
+        "2026-10-14T00:10:25.195352+00:00  INFO   MURATAUSDT: neu gelistet, wird morgen bewertet.",
+        "2026-10-14T00:10:25.195566+00:00  INFO   JPMUFGUSDT: neu gelistet, wird morgen bewertet.",
+        "2026-10-14T00:10:25.195699+00:00  INFO   TOYOTAUSDT: neu gelistet, wird morgen bewertet.",
+        "2026-10-14T00:10:25.195821+00:00  INFO   TAIYOYUDENUSDT: neu gelistet, wird morgen bewertet.",
+        "2026-10-14T00:10:25.195982+00:00  INFO   JPSONYUSDT: neu gelistet, wird morgen bewertet.",
+        "2026-10-14T00:10:25.196947+00:00  INFO   Fertig. 836 Kontrakte, 5 in Beobachtung, 0 offen, 0 erledigt."
       ]
     },
     {
@@ -80,18 +80,18 @@
       "slippage_median_pct": null,
       "slippage_trades": null,
       "log": [
-        "2026-10-13T00:15:57.401129+00:00  INFO   ADAUSDT: kein Signal â€” 10-Tage-Rendite -3.85 %, Schwelle -20.65 %",
-        "2026-10-13T00:15:59.985133+00:00  INFO   SOLUSDT: kein Signal â€” 10-Tage-Rendite -9.24 %, Schwelle -18.38 %",
-        "2026-10-13T00:16:02.624529+00:00  INFO   DOGEUSDT: kein Signal â€” 10-Tage-Rendite -10.63 %, Schwelle -19.00 %",
-        "2026-10-13T00:16:05.258508+00:00  INFO   DOTUSDT: kein Signal â€” 10-Tage-Rendite +1.73 %, Schwelle -21.13 %",
-        "2026-10-13T00:16:07.907786+00:00  INFO   AVAXUSDT: kein Signal â€” 10-Tage-Rendite -3.89 %, Schwelle -21.76 %",
-        "2026-10-13T00:16:10.538995+00:00  INFO   LTCUSDT: kein Signal â€” 10-Tage-Rendite -11.19 %, Schwelle -15.89 %",
-        "2026-10-13T00:16:13.191294+00:00  INFO   LINKUSDT: kein Signal â€” 10-Tage-Rendite -8.60 %, Schwelle -17.70 %",
-        "2026-10-13T00:16:15.837482+00:00  INFO   BCHUSDT: kein Signal â€” 10-Tage-Rendite -11.66 %, Schwelle -17.80 %",
-        "2026-10-13T00:16:18.466839+00:00  INFO   XLMUSDT: kein Signal â€” 10-Tage-Rendite -10.87 %, Schwelle -16.19 %",
-        "2026-10-13T00:16:21.058819+00:00  INFO   TRXUSDT: kein Signal â€” 10-Tage-Rendite -1.57 %, Schwelle -6.67 %",
-        "2026-10-13T00:16:23.623271+00:00  INFO   ATOMUSDT: kein Signal â€” 10-Tage-Rendite +6.31 %, Schwelle -17.44 %",
-        "2026-10-13T00:16:23.624079+00:00  INFO   Fertig. 0 gekauft, 0 verkauft, 0 uebersprungen."
+        "2026-10-14T00:15:57.422101+00:00  INFO   ADAUSDT: kein Signal â€” 10-Tage-Rendite -4.29 %, Schwelle -20.65 %",
+        "2026-10-14T00:16:00.226471+00:00  INFO   SOLUSDT: kein Signal â€” 10-Tage-Rendite -10.27 %, Schwelle -18.38 %",
+        "2026-10-14T00:16:02.859632+00:00  INFO   DOGEUSDT: kein Signal â€” 10-Tage-Rendite -9.59 %, Schwelle -19.00 %",
+        "2026-10-14T00:16:05.666208+00:00  INFO   DOTUSDT: kein Signal â€” 10-Tage-Rendite -4.15 %, Schwelle -21.13 %",
+        "2026-10-14T00:16:08.297841+00:00  INFO   AVAXUSDT: kein Signal â€” 10-Tage-Rendite -7.68 %, Schwelle -21.76 %",
+        "2026-10-14T00:16:10.973707+00:00  INFO   LTCUSDT: kein Signal â€” 10-Tage-Rendite -12.42 %, Schwelle -15.89 %",
+        "2026-10-14T00:16:13.619211+00:00  INFO   LINKUSDT: kein Signal â€” 10-Tage-Rendite -6.72 %, Schwelle -17.70 %",
+        "2026-10-14T00:16:16.234704+00:00  INFO   BCHUSDT: kein Signal â€” 10-Tage-Rendite -13.66 %, Schwelle -17.80 %",
+        "2026-10-14T00:16:18.886727+00:00  INFO   XLMUSDT: kein Signal â€” 10-Tage-Rendite -10.72 %, Schwelle -16.19 %",
+        "2026-10-14T00:16:21.494191+00:00  INFO   TRXUSDT: kein Signal â€” 10-Tage-Rendite -2.74 %, Schwelle -6.67 %",
+        "2026-10-14T00:16:24.094630+00:00  INFO   ATOMUSDT: kein Signal â€” 10-Tage-Rendite +4.35 %, Schwelle -17.44 %",
+        "2026-10-14T00:16:24.094994+00:00  INFO   Fertig. 0 gekauft, 0 verkauft, 0 uebersprungen."
       ]
     }
   ]
