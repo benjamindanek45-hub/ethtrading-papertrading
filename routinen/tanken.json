@@ -1,8 +1,8 @@
 {
   "routine": "tanken",
-  "stempel": "2026-10-15T18:15:33+00:00",
-  "melden": false,
-  "kennung": "",
-  "text": "",
-  "hinweis": "nur Messung, keine Zustellung faellig | 2.139 EUR bei 14 offenen Stellen; bester Tagestiefstpreis 2.159 aus 7 Tagen, Schwelle 2.139; 289 Messungen"
+  "stempel": "2026-10-15T18:46:44+00:00",
+  "melden": true,
+  "kennung": "tanken-2026-10-15T18-677de8",
+  "text": "E5 2.139 bei ORLEN in Kamp-Lintfort, Moerser Straße 118 - 2 Cent unter dem besten Preis der letzten Tage, 1.4 km entfernt.",
+  "hinweis": "2.139 EUR bei 14 offenen Stellen; bester Tagestiefstpreis 2.159 aus 7 Tagen, Schwelle 2.139; 288 Messungen"
 }
