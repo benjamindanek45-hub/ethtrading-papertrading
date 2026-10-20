@@ -1,8 +1,8 @@
 {
   "routine": "tanken",
-  "stempel": "2026-10-20T06:16:39+00:00",
+  "stempel": "2026-10-20T06:46:53+00:00",
   "melden": false,
   "kennung": "",
   "text": "",
-  "hinweis": "nur Messung, keine Zustellung faellig | 2.129 EUR bei 14 offenen Stellen; bester Tagestiefstpreis 2.109 aus 7 Tagen, Schwelle 2.089; 288 Messungen"
+  "hinweis": "FEHLER: URLError: <urlopen error timed out>"
 }
