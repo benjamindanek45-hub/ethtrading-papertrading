@@ -1,8 +1,8 @@
 {
   "routine": "tanken",
-  "stempel": "2026-10-20T06:46:53+00:00",
+  "stempel": "2026-10-20T07:16:09+00:00",
   "melden": false,
   "kennung": "",
   "text": "",
-  "hinweis": "FEHLER: URLError: <urlopen error timed out>"
+  "hinweis": "FEHLER: HTTPError: HTTP Error 502: Bad Gateway"
 }
