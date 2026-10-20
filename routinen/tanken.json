@@ -1,8 +1,8 @@
 {
   "routine": "tanken",
-  "stempel": "2026-10-20T08:45:28+00:00",
+  "stempel": "2026-10-20T09:16:28+00:00",
   "melden": false,
   "kennung": "",
   "text": "",
-  "hinweis": "FEHLER: HTTPError: HTTP Error 502: Bad Gateway"
+  "hinweis": "nur Messung, keine Zustellung faellig | 2.129 EUR bei 14 offenen Stellen; bester Tagestiefstpreis 2.109 aus 7 Tagen, Schwelle 2.089; 283 Messungen"
 }
