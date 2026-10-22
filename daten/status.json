@@ -1,16 +1,21 @@
 {
-  "zeit": "2026-10-21T00:30:20.516805+00:00",
-  "alles_gut": true,
+  "zeit": "2026-10-22T00:30:39.023468+00:00",
+  "alles_gut": false,
   "statusbot": "active",
   "server": {
-    "platte_pct": 52,
+    "platte_pct": 53,
     "platte_frei": "35G",
-    "last": "0.24 0.21 0.19",
-    "speicher_frei_pct": 76,
-    "api_ms": 315,
-    "uhr_abweichung_s": 0.2
+    "last": "0.14 0.18 0.17",
+    "speicher_frei_pct": 75,
+    "api_ms": 288,
+    "uhr_abweichung_s": 0.1,
+    "ausgefallen": [
+      "ruecklaufbot.service"
+    ]
   },
-  "server_probleme": [],
+  "server_probleme": [
+    "ausgefallene Dienste: ruecklaufbot.service"
+  ],
   "bruecke_probleme": [],
   "stillgelegt_probleme": [],
   "bots": [
@@ -41,57 +46,62 @@
       "lauf_vor_h": 0.3,
       "exit": "0",
       "live": true,
-      "positionen": 1,
-      "ergebnis_pct": -0.14,
-      "im_markt_pct": 18,
+      "positionen": 2,
+      "ergebnis_pct": 2.46,
+      "im_markt_pct": 24,
       "fehlerzeilen": 0,
       "uebersprungen": 0,
       "slippage_median_pct": null,
       "slippage_trades": null,
       "log": [
-        "2026-10-21T00:10:25.169519+00:00  INFO   TWUMCUSDT: verworfen — Umsatz 0.0 Mio unter 20, tokenisierte Aktie.",
-        "2026-10-21T00:10:25.501192+00:00  INFO   NANYAUSDT: verworfen — Umsatz 0.0 Mio unter 20, tokenisierte Aktie.",
-        "2026-10-21T00:10:25.776076+00:00  INFO   WINBONDUSDT: verworfen — Umsatz 0.0 Mio unter 20, tokenisierte Aktie.",
-        "2026-10-21T00:10:26.059484+00:00  INFO   YAGEOUSDT: verworfen — Umsatz 0.0 Mio unter 20, tokenisierte Aktie.",
-        "2026-10-21T00:10:26.338615+00:00  INFO   WALSINUSDT: verworfen — Umsatz 0.0 Mio unter 20, tokenisierte Aktie.",
-        "2026-10-21T00:10:26.606366+00:00  INFO   MDTUSDT: verworfen — Umsatz 0.0 Mio unter 20, tokenisierte Aktie.",
-        "2026-10-21T00:10:26.881296+00:00  INFO   CSTOCKUSDT: verworfen — Umsatz 0.0 Mio unter 20, tokenisierte Aktie.",
-        "2026-10-21T00:10:27.156239+00:00  INFO   BPUSDT: verworfen — Umsatz 0.0 Mio unter 20, tokenisierte Aktie.",
-        "2026-10-21T00:10:27.444298+00:00  INFO   VLOUSDT: verworfen — Umsatz 0.0 Mio unter 20, tokenisierte Aktie.",
-        "2026-10-21T00:10:29.111860+00:00  INFO   MPLXUSDT: neu am Upbit-KRW-Markt, kein Bitget-Perp.",
-        "2026-10-21T00:10:29.139647+00:00  INFO   AXISUSDT: neu bei Coinbase, kein Bitget-Perp.",
-        "2026-10-21T00:10:31.173749+00:00  INFO   Fertig. 850 Kontrakte, 0 in Beobachtung, 1 offen, 0 erledigt."
+        "2026-10-22T00:10:18.822031+00:00  INFO   VSTBUSDT: neu im Binance-Spot, kein Bitget-Perp.",
+        "2026-10-22T00:10:20.712036+00:00  INFO   AXISUSDT: neu am Upbit-KRW-Markt, auf Bitget 1 Tage alt (Regel ab 10) — verworfen.",
+        "2026-10-22T00:10:26.380432+00:00  INFO   ATUSDT: SHORT 360 eroeffnet (bithumb), Stop 0.16668.",
+        "2026-10-22T00:10:26.380791+00:00  INFO   PYBOBOUSDT: neu am Bithumb-KRW-Markt, kein Bitget-Perp.",
+        "2026-10-22T00:10:27.638073+00:00  INFO   ELICEUSDT: neu gelistet, wird morgen bewertet.",
+        "2026-10-22T00:10:27.638489+00:00  INFO   AXISUSDT: neu gelistet, wird morgen bewertet.",
+        "2026-10-22T00:10:27.638703+00:00  INFO   EBAYUSDT: neu gelistet, wird morgen bewertet.",
+        "2026-10-22T00:10:27.638945+00:00  INFO   IBKRUSDT: neu gelistet, wird morgen bewertet.",
+        "2026-10-22T00:10:27.639118+00:00  INFO   HLTUSDT: neu gelistet, wird morgen bewertet.",
+        "2026-10-22T00:10:27.639349+00:00  INFO   MSCIUSDT: neu gelistet, wird morgen bewertet.",
+        "2026-10-22T00:10:27.639555+00:00  INFO   ABBVUSDT: neu gelistet, wird morgen bewertet.",
+        "2026-10-22T00:10:27.641422+00:00  INFO   Fertig. 857 Kontrakte, 7 in Beobachtung, 2 offen, 0 erledigt."
       ]
     },
     {
       "kurz": "ruecklauf",
       "name": "Projekt 3 — Ruecklauf",
-      "probleme": [],
-      "hinweise": [],
+      "probleme": [
+        "letzter Lauf endete mit Fehlercode 1",
+        "1 Fehlerzeile(n) im Protokoll"
+      ],
+      "hinweise": [
+        "2026-10-22T00:15:52.549476+00:00  FEHLER ABBRUCH: /api/v2/mix/order/place-order nach 4 Versuchen: Bitget 22002: No position to close [/api/v2/mix/orde"
+      ],
       "timer": "active",
       "lauf_vor_h": 0.2,
-      "exit": "0",
+      "exit": "1",
       "live": true,
       "positionen": 2,
-      "ergebnis_pct": 0.31,
+      "ergebnis_pct": 0.4,
       "im_markt_pct": 20,
-      "fehlerzeilen": 0,
+      "fehlerzeilen": 1,
       "uebersprungen": 0,
       "slippage_median_pct": 0.015,
       "slippage_trades": 2,
       "log": [
-        "2026-10-21T00:15:15.208276+00:00  INFO   ADAUSDT: kein Signal — 10-Tage-Rendite -13.01 %, Schwelle -20.65 %",
-        "2026-10-21T00:15:17.792152+00:00  INFO   SOLUSDT: kein Signal — 10-Tage-Rendite -4.19 %, Schwelle -18.38 %",
-        "2026-10-21T00:15:20.448065+00:00  INFO   DOGEUSDT: kein Signal — 10-Tage-Rendite -6.58 %, Schwelle -17.92 %",
-        "2026-10-21T00:15:23.018133+00:00  INFO   DOTUSDT: kein Signal — 10-Tage-Rendite -7.80 %, Schwelle -21.13 %",
-        "2026-10-21T00:15:25.664300+00:00  INFO   AVAXUSDT: kein Signal — 10-Tage-Rendite -8.46 %, Schwelle -21.76 %",
-        "2026-10-21T00:15:28.236185+00:00  INFO   LTCUSDT: halten — Schluss 59.6900 unter SMA10 60.4000 (+0.69 %)",
-        "2026-10-21T00:15:30.993242+00:00  INFO   LINKUSDT: kein Signal — 10-Tage-Rendite -7.20 %, Schwelle -17.70 %",
-        "2026-10-21T00:15:33.523812+00:00  INFO   BCHUSDT: kein Signal — 10-Tage-Rendite -1.43 %, Schwelle -17.80 %",
-        "2026-10-21T00:15:36.207622+00:00  INFO   XLMUSDT: halten — Schluss 0.1792 unter SMA10 0.1846 (-1.84 %)",
-        "2026-10-21T00:15:38.818006+00:00  INFO   TRXUSDT: kein Signal — 10-Tage-Rendite +0.01 %, Schwelle -6.67 %",
-        "2026-10-21T00:15:41.360800+00:00  INFO   ATOMUSDT: kein Signal — 10-Tage-Rendite -11.07 %, Schwelle -17.44 %",
-        "2026-10-21T00:15:41.361245+00:00  INFO   Fertig. 0 gekauft, 0 verkauft, 0 uebersprungen."
+        "2026-10-22T00:15:13.205212+00:00  INFO   Konto … USDT gesamt, 225.70 frei | 2 Positionen offen, Notional … USDT (20 % vom Konto)",
+        "2026-10-22T00:15:15.833560+00:00  INFO   BTCUSDT: kein Signal — 10-Tage-Rendite +0.74 %, Schwelle -12.49 %",
+        "2026-10-22T00:15:18.376742+00:00  INFO   ETHUSDT: kein Signal — 10-Tage-Rendite -0.91 %, Schwelle -16.42 %",
+        "2026-10-22T00:15:20.969548+00:00  INFO   BNBUSDT: kein Signal — 10-Tage-Rendite -0.82 %, Schwelle -12.47 %",
+        "2026-10-22T00:15:23.602388+00:00  INFO   XRPUSDT: kein Signal — 10-Tage-Rendite -3.12 %, Schwelle -15.43 %",
+        "2026-10-22T00:15:26.212067+00:00  INFO   ADAUSDT: kein Signal — 10-Tage-Rendite -9.77 %, Schwelle -20.65 %",
+        "2026-10-22T00:15:28.752718+00:00  INFO   SOLUSDT: kein Signal — 10-Tage-Rendite -3.13 %, Schwelle -18.38 %",
+        "2026-10-22T00:15:31.399752+00:00  INFO   DOGEUSDT: kein Signal — 10-Tage-Rendite -4.33 %, Schwelle -17.92 %",
+        "2026-10-22T00:15:33.970809+00:00  INFO   DOTUSDT: kein Signal — 10-Tage-Rendite -5.83 %, Schwelle -21.13 %",
+        "2026-10-22T00:15:36.533668+00:00  INFO   AVAXUSDT: kein Signal — 10-Tage-Rendite -8.35 %, Schwelle -21.76 %",
+        "2026-10-22T00:15:39.118837+00:00  INFO   LTCUSDT: AUSSTIEG — Schluss 62.0400 ueber SMA10 60.1510, Einstieg 59.2800 (+4.66 %)",
+        "2026-10-22T00:15:52.549476+00:00  FEHLER ABBRUCH: /api/v2/mix/order/place-order nach 4 Versuchen: Bitget 22002: No position to close [/api/v2/mix/order/place-order]"
       ]
     }
   ]
