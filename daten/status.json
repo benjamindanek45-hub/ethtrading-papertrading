@@ -1,13 +1,13 @@
 {
-  "zeit": "2026-10-31T00:30:17.693645+00:00",
+  "zeit": "2026-11-01T00:30:05.451155+00:00",
   "alles_gut": true,
   "statusbot": "active",
   "server": {
     "platte_pct": 55,
     "platte_frei": "33G",
-    "last": "0.24 0.32 0.27",
-    "speicher_frei_pct": 73,
-    "api_ms": 291,
+    "last": "0.14 0.15 0.17",
+    "speicher_frei_pct": 71,
+    "api_ms": 272,
     "uhr_abweichung_s": 0.1
   },
   "server_probleme": [],
@@ -42,17 +42,13 @@
       "exit": "0",
       "live": true,
       "positionen": 2,
-      "ergebnis_pct": 10.54,
-      "im_markt_pct": 23,
+      "ergebnis_pct": 11.94,
+      "im_markt_pct": 21,
       "fehlerzeilen": 0,
       "uebersprungen": 0,
       "slippage_median_pct": null,
       "slippage_trades": null,
       "log": [
-        "2026-10-30T00:10:14.643869+00:00  INFO   FTNTUSDT: neu gelistet, wird morgen bewertet.",
-        "2026-10-30T00:10:14.644137+00:00  INFO   EWZSUSDT: neu gelistet, wird morgen bewertet.",
-        "2026-10-30T00:10:14.644237+00:00  INFO   PFEUSDT: neu gelistet, wird morgen bewertet.",
-        "2026-10-30T00:10:14.645352+00:00  INFO   Fertig. 875 Kontrakte, 3 in Beobachtung, 2 offen, 2 erledigt.",
         "2026-10-31T00:10:16.751260+00:00  INFO   === Lauf LIVE ===",
         "2026-10-31T00:10:17.994393+00:00  INFO   NILUSDT: Tag 3 von 7, Kurs 0.08023, Stand … USDT.",
         "2026-10-31T00:10:18.535144+00:00  INFO   STABLEUSDT: Tag 3 von 7, Kurs 0.0265, Stand … USDT.",
@@ -60,7 +56,11 @@
         "2026-10-31T00:10:19.110074+00:00  INFO   EWZSUSDT: verworfen — Umsatz 0.1 Mio unter 20, tokenisierte Aktie.",
         "2026-10-31T00:10:19.384254+00:00  INFO   PFEUSDT: verworfen — Umsatz 0.1 Mio unter 20, tokenisierte Aktie.",
         "2026-10-31T00:10:22.890770+00:00  INFO   Papier Upbit (delist): BLURUSDT SHORT 0.00886, Stop 0.010632.",
-        "2026-10-31T00:10:23.814577+00:00  INFO   Fertig. 875 Kontrakte, 0 in Beobachtung, 2 offen, 2 erledigt."
+        "2026-10-31T00:10:23.814577+00:00  INFO   Fertig. 875 Kontrakte, 0 in Beobachtung, 2 offen, 2 erledigt.",
+        "2026-11-01T00:10:00.502617+00:00  INFO   === Lauf LIVE ===",
+        "2026-11-01T00:10:01.732585+00:00  INFO   NILUSDT: Tag 4 von 7, Kurs 0.07316, Stand … USDT.",
+        "2026-11-01T00:10:02.278298+00:00  INFO   STABLEUSDT: Tag 4 von 7, Kurs 0.02652, Stand … USDT.",
+        "2026-11-01T00:10:05.980845+00:00  INFO   Fertig. 875 Kontrakte, 0 in Beobachtung, 2 offen, 2 erledigt."
       ]
     },
     {
@@ -73,25 +73,25 @@
       "exit": "0",
       "live": true,
       "positionen": 1,
-      "ergebnis_pct": -0.69,
+      "ergebnis_pct": -0.77,
       "im_markt_pct": 9,
       "fehlerzeilen": 0,
       "uebersprungen": 0,
       "slippage_median_pct": 0.017,
       "slippage_trades": 3,
       "log": [
-        "2026-10-31T00:15:25.877105+00:00  INFO   ADAUSDT: kein Signal — 10-Tage-Rendite -12.97 %, Schwelle -20.65 %",
-        "2026-10-31T00:15:28.473420+00:00  INFO   SOLUSDT: kein Signal — 10-Tage-Rendite -10.38 %, Schwelle -18.38 %",
-        "2026-10-31T00:15:31.013811+00:00  INFO   DOGEUSDT: kein Signal — 10-Tage-Rendite -5.84 %, Schwelle -17.92 %",
-        "2026-10-31T00:15:33.623047+00:00  INFO   DOTUSDT: kein Signal — 10-Tage-Rendite -16.32 %, Schwelle -21.13 %",
-        "2026-10-31T00:15:36.306478+00:00  INFO   AVAXUSDT: kein Signal — 10-Tage-Rendite -13.31 %, Schwelle -21.76 %",
-        "2026-10-31T00:15:38.859936+00:00  INFO   LTCUSDT: kein Signal — 10-Tage-Rendite -6.77 %, Schwelle -16.09 %",
-        "2026-10-31T00:15:41.426415+00:00  INFO   LINKUSDT: kein Signal — 10-Tage-Rendite -9.30 %, Schwelle -17.70 %",
-        "2026-10-31T00:15:43.977832+00:00  INFO   BCHUSDT: kein Signal — 10-Tage-Rendite +5.76 %, Schwelle -17.80 %",
-        "2026-10-31T00:15:46.567787+00:00  INFO   XLMUSDT: halten — Schluss 0.1721 unter SMA10 0.1731 (-5.71 %)",
-        "2026-10-31T00:15:49.129011+00:00  INFO   TRXUSDT: kein Signal — 10-Tage-Rendite +1.51 %, Schwelle -6.67 %",
-        "2026-10-31T00:15:51.711199+00:00  INFO   ATOMUSDT: kein Signal — 10-Tage-Rendite -13.40 %, Schwelle -17.44 %",
-        "2026-10-31T00:15:51.711656+00:00  INFO   Fertig. 0 gekauft, 0 verkauft, 0 uebersprungen."
+        "2026-11-01T00:15:26.678932+00:00  INFO   ADAUSDT: kein Signal — 10-Tage-Rendite -15.46 %, Schwelle -20.65 %",
+        "2026-11-01T00:15:29.254662+00:00  INFO   SOLUSDT: kein Signal — 10-Tage-Rendite -11.56 %, Schwelle -18.38 %",
+        "2026-11-01T00:15:31.722659+00:00  INFO   DOGEUSDT: kein Signal — 10-Tage-Rendite -9.36 %, Schwelle -17.92 %",
+        "2026-11-01T00:15:34.298946+00:00  INFO   DOTUSDT: kein Signal — 10-Tage-Rendite -18.81 %, Schwelle -21.13 %",
+        "2026-11-01T00:15:36.813664+00:00  INFO   AVAXUSDT: kein Signal — 10-Tage-Rendite -13.93 %, Schwelle -21.76 %",
+        "2026-11-01T00:15:39.430326+00:00  INFO   LTCUSDT: kein Signal — 10-Tage-Rendite -10.64 %, Schwelle -16.09 %",
+        "2026-11-01T00:15:41.948395+00:00  INFO   LINKUSDT: kein Signal — 10-Tage-Rendite -8.83 %, Schwelle -17.70 %",
+        "2026-11-01T00:15:44.478495+00:00  INFO   BCHUSDT: kein Signal — 10-Tage-Rendite -0.71 %, Schwelle -17.80 %",
+        "2026-11-01T00:15:47.106920+00:00  INFO   XLMUSDT: halten — Schluss 0.1717 unter SMA10 0.1717 (-5.97 %)",
+        "2026-11-01T00:15:49.671597+00:00  INFO   TRXUSDT: kein Signal — 10-Tage-Rendite -5.82 %, Schwelle -6.67 %",
+        "2026-11-01T00:15:52.177645+00:00  INFO   ATOMUSDT: kein Signal — 10-Tage-Rendite -14.04 %, Schwelle -17.44 %",
+        "2026-11-01T00:15:52.178312+00:00  INFO   Fertig. 0 gekauft, 0 verkauft, 0 uebersprungen."
       ]
     }
   ]
