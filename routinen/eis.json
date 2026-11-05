@@ -1,8 +1,8 @@
 {
   "routine": "eis",
-  "stempel": "2026-11-04T18:22:44+00:00",
-  "melden": false,
-  "kennung": "",
-  "text": "",
-  "hinweis": "2026-11-05 06:00-08:30: min 3.0 C um 08:00, Wolken 0-0%, Wind bis 13 km/h, Schnee 0.0 cm"
+  "stempel": "2026-11-05T18:22:58+00:00",
+  "melden": true,
+  "kennung": "eis-2026-11-05T18-205a4c",
+  "text": "Jo Benni, morgen früh liegt wahrscheinlich Reif auf den Scheiben - nur 2 Grad, klarer Himmel und kaum Wind. Rechne mit Kratzen.",
+  "hinweis": "2026-11-06 06:00-08:30: min 2.0 C um 08:00, Wolken 0-0%, Wind bis 8 km/h, Schnee 0.0 cm"
 }
