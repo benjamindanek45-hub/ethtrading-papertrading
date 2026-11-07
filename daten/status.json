@@ -1,13 +1,13 @@
 {
-  "zeit": "2026-11-06T00:30:32.455974+00:00",
+  "zeit": "2026-11-07T00:30:16.527377+00:00",
   "alles_gut": true,
   "statusbot": "active",
   "server": {
     "platte_pct": 58,
     "platte_frei": "31G",
-    "last": "0.49 0.27 0.20",
+    "last": "0.26 0.23 0.20",
     "speicher_frei_pct": 72,
-    "api_ms": 290,
+    "api_ms": 309,
     "uhr_abweichung_s": 0.1
   },
   "server_probleme": [],
@@ -42,25 +42,25 @@
       "exit": "0",
       "live": true,
       "positionen": 1,
-      "ergebnis_pct": 13.17,
-      "im_markt_pct": 8,
+      "ergebnis_pct": 14.62,
+      "im_markt_pct": 7,
       "fehlerzeilen": 0,
       "uebersprungen": 0,
       "slippage_median_pct": null,
       "slippage_trades": null,
       "log": [
-        "2026-11-06T00:10:17.726467+00:00  INFO   LTUSDT: neu gelistet, wird morgen bewertet.",
-        "2026-11-06T00:10:17.726567+00:00  INFO   ITCUSDT: neu gelistet, wird morgen bewertet.",
-        "2026-11-06T00:10:17.726657+00:00  INFO   BHARTIARTLUSDT: neu gelistet, wird morgen bewertet.",
-        "2026-11-06T00:10:17.726732+00:00  INFO   TCSUSDT: neu gelistet, wird morgen bewertet.",
-        "2026-11-06T00:10:17.726803+00:00  INFO   INFYUSDT: neu gelistet, wird morgen bewertet.",
-        "2026-11-06T00:10:17.726919+00:00  INFO   SBINUSDT: neu gelistet, wird morgen bewertet.",
-        "2026-11-06T00:10:17.727056+00:00  INFO   ICICIBANKUSDT: neu gelistet, wird morgen bewertet.",
-        "2026-11-06T00:10:17.727225+00:00  INFO   HDFCBANKUSDT: neu gelistet, wird morgen bewertet.",
-        "2026-11-06T00:10:17.727387+00:00  INFO   RELIANCEUSDT: neu gelistet, wird morgen bewertet.",
-        "2026-11-06T00:10:17.727544+00:00  INFO   MSUSDT: neu gelistet, wird morgen bewertet.",
-        "2026-11-06T00:10:17.727688+00:00  INFO   KMBUSDT: neu gelistet, wird morgen bewertet.",
-        "2026-11-06T00:10:17.728957+00:00  INFO   Fertig. 891 Kontrakte, 12 in Beobachtung, 1 offen, 4 erledigt."
+        "2026-11-07T00:10:09.244025+00:00  INFO   TCSUSDT: verworfen — Umsatz 0.0 Mio unter 20, tokenisierte Aktie.",
+        "2026-11-07T00:10:09.501283+00:00  INFO   INFYUSDT: verworfen — Umsatz 0.1 Mio unter 20, tokenisierte Aktie.",
+        "2026-11-07T00:10:09.777476+00:00  INFO   SBINUSDT: verworfen — Umsatz 0.0 Mio unter 20, tokenisierte Aktie.",
+        "2026-11-07T00:10:10.044805+00:00  INFO   ICICIBANKUSDT: verworfen — Umsatz 0.0 Mio unter 20, tokenisierte Aktie.",
+        "2026-11-07T00:10:10.307863+00:00  INFO   HDFCBANKUSDT: verworfen — Umsatz 0.0 Mio unter 20, tokenisierte Aktie.",
+        "2026-11-07T00:10:10.592949+00:00  INFO   RELIANCEUSDT: verworfen — Umsatz 0.0 Mio unter 20, tokenisierte Aktie.",
+        "2026-11-07T00:10:10.862371+00:00  INFO   MSUSDT: verworfen — Umsatz 0.0 Mio unter 20, tokenisierte Aktie.",
+        "2026-11-07T00:10:11.139635+00:00  INFO   KMBUSDT: verworfen — Umsatz 0.0 Mio unter 20, tokenisierte Aktie.",
+        "2026-11-07T00:10:12.659050+00:00  INFO   CARDUSDT: neu bei Coinbase, kein Bitget-Perp.",
+        "2026-11-07T00:10:14.406231+00:00  INFO   Papier Upbit (delist): DNTUSDT kein Bitget-Perp.",
+        "2026-11-07T00:10:14.406481+00:00  INFO   Papier Upbit (delist): HBDUSDT kein Bitget-Perp.",
+        "2026-11-07T00:10:15.233035+00:00  INFO   Fertig. 891 Kontrakte, 0 in Beobachtung, 1 offen, 4 erledigt."
       ]
     },
     {
@@ -80,18 +80,18 @@
       "slippage_median_pct": 0.015,
       "slippage_trades": 4,
       "log": [
-        "2026-11-06T00:15:21.825444+00:00  INFO   ADAUSDT: kein Signal — 10-Tage-Rendite -11.68 %, Schwelle -20.37 %",
-        "2026-11-06T00:15:24.423114+00:00  INFO   SOLUSDT: kein Signal — 10-Tage-Rendite -11.49 %, Schwelle -18.38 %",
-        "2026-11-06T00:15:27.078566+00:00  INFO   DOGEUSDT: kein Signal — 10-Tage-Rendite -7.67 %, Schwelle -17.19 %",
-        "2026-11-06T00:15:29.666011+00:00  INFO   DOTUSDT: kein Signal — 10-Tage-Rendite -12.43 %, Schwelle -19.97 %",
-        "2026-11-06T00:15:32.290727+00:00  INFO   AVAXUSDT: kein Signal — 10-Tage-Rendite -8.98 %, Schwelle -20.70 %",
-        "2026-11-06T00:15:34.919341+00:00  INFO   LTCUSDT: kein Signal — 10-Tage-Rendite -9.00 %, Schwelle -16.09 %",
-        "2026-11-06T00:15:37.514453+00:00  INFO   LINKUSDT: kein Signal — 10-Tage-Rendite -7.10 %, Schwelle -16.61 %",
-        "2026-11-06T00:15:40.346509+00:00  INFO   BCHUSDT: kein Signal — 10-Tage-Rendite +0.27 %, Schwelle -17.80 %",
-        "2026-11-06T00:15:42.858586+00:00  INFO   XLMUSDT: halten — Schluss 0.1542 unter SMA10 0.1679 (-15.55 %)",
-        "2026-11-06T00:15:45.434574+00:00  INFO   TRXUSDT: kein Signal — 10-Tage-Rendite -4.63 %, Schwelle -6.67 %",
-        "2026-11-06T00:15:47.977167+00:00  INFO   ATOMUSDT: halten — Schluss 1.4194 unter SMA10 1.5138 (-0.94 %)",
-        "2026-11-06T00:15:47.977523+00:00  INFO   Fertig. 0 gekauft, 0 verkauft, 0 uebersprungen."
+        "2026-11-07T00:15:14.839737+00:00  INFO   ADAUSDT: kein Signal — 10-Tage-Rendite -8.51 %, Schwelle -20.37 %",
+        "2026-11-07T00:15:17.587862+00:00  INFO   SOLUSDT: kein Signal — 10-Tage-Rendite -10.13 %, Schwelle -18.38 %",
+        "2026-11-07T00:15:20.116837+00:00  INFO   DOGEUSDT: kein Signal — 10-Tage-Rendite -6.46 %, Schwelle -17.19 %",
+        "2026-11-07T00:15:22.705227+00:00  INFO   DOTUSDT: kein Signal — 10-Tage-Rendite -5.35 %, Schwelle -19.97 %",
+        "2026-11-07T00:15:25.274081+00:00  INFO   AVAXUSDT: kein Signal — 10-Tage-Rendite -5.04 %, Schwelle -20.70 %",
+        "2026-11-07T00:15:27.785067+00:00  INFO   LTCUSDT: kein Signal — 10-Tage-Rendite -6.44 %, Schwelle -16.09 %",
+        "2026-11-07T00:15:30.270029+00:00  INFO   LINKUSDT: kein Signal — 10-Tage-Rendite -4.31 %, Schwelle -16.61 %",
+        "2026-11-07T00:15:32.765177+00:00  INFO   BCHUSDT: kein Signal — 10-Tage-Rendite -6.59 %, Schwelle -17.80 %",
+        "2026-11-07T00:15:35.294078+00:00  INFO   XLMUSDT: halten — Schluss 0.1550 unter SMA10 0.1665 (-15.09 %)",
+        "2026-11-07T00:15:37.910816+00:00  INFO   TRXUSDT: kein Signal — 10-Tage-Rendite -2.93 %, Schwelle -6.67 %",
+        "2026-11-07T00:15:40.475610+00:00  INFO   ATOMUSDT: halten — Schluss 1.4151 unter SMA10 1.4934 (-1.24 %)",
+        "2026-11-07T00:15:40.476201+00:00  INFO   Fertig. 0 gekauft, 0 verkauft, 0 uebersprungen."
       ]
     }
   ]
