@@ -1,9 +1,9 @@
 {
   "routine": "eis",
-  "stempel": "2026-11-11T18:22:13+00:00",
-  "melden": false,
-  "kennung": "",
-  "text": "",
-  "hinweis": "2026-11-12 00:00-08:30: min 2.8 C um 08:00, morgens min 2.8 C, 1 Std kalt+klar+windstill, Wolken 0-100%, Wind bis 9 km/h, Schnee 0.0 cm",
+  "stempel": "2026-11-12T18:22:20+00:00",
+  "melden": true,
+  "kennung": "eis-2026-11-12T18-4f7d9a",
+  "text": "Jo Benni, morgen früh musst du wahrscheinlich kratzen - in der Nacht nur 2 Grad, klarer Himmel und kaum Wind, da frieren die Scheiben gern zu.",
+  "hinweis": "2026-11-13 00:00-08:30: min 1.5 C um 08:00, morgens min 1.5 C, 8 Std kalt+klar+windstill, Wolken 0-0%, Wind bis 12 km/h, Schnee 0.0 cm",
   "erwartet_alle": "36h"
 }
