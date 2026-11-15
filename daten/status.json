@@ -1,13 +1,13 @@
 {
-  "zeit": "2026-11-14T00:30:04.900265+00:00",
+  "zeit": "2026-11-15T00:30:25.547163+00:00",
   "alles_gut": true,
   "statusbot": "active",
   "server": {
     "platte_pct": 65,
     "platte_frei": "26G",
-    "last": "0.06 0.13 0.14",
-    "speicher_frei_pct": 74,
-    "api_ms": 297,
+    "last": "0.18 0.19 0.15",
+    "speicher_frei_pct": 73,
+    "api_ms": 318,
     "uhr_abweichung_s": 0.1
   },
   "server_probleme": [],
@@ -42,16 +42,13 @@
       "exit": "0",
       "live": true,
       "positionen": 1,
-      "ergebnis_pct": 13.78,
-      "im_markt_pct": 16,
+      "ergebnis_pct": 15.7,
+      "im_markt_pct": 14,
       "fehlerzeilen": 0,
       "uebersprungen": 0,
       "slippage_median_pct": null,
       "slippage_trades": null,
       "log": [
-        "2026-11-13T00:10:01.895183+00:00  INFO   MAGMAUSDT: Position geschlossen (143).",
-        "2026-11-13T00:10:02.435918+00:00  INFO   HYPEUSDT: Tag 2 von 7, Kurs 72.503, Stand … USDT.",
-        "2026-11-13T00:10:04.330481+00:00  INFO   PEARLUSDT: neu bei Coinbase, kein Bitget-Perp.",
         "2026-11-13T00:10:06.605982+00:00  INFO   FRHCUSDT: neu gelistet, wird morgen bewertet.",
         "2026-11-13T00:10:06.607263+00:00  INFO   Fertig. 892 Kontrakte, 1 in Beobachtung, 1 offen, 5 erledigt.",
         "2026-11-14T00:10:06.257780+00:00  INFO   === Lauf LIVE ===",
@@ -60,7 +57,10 @@
         "2026-11-14T00:10:09.725834+00:00  INFO   SANCUSDT: neu am Upbit-KRW-Markt, kein Bitget-Perp.",
         "2026-11-14T00:10:10.643175+00:00  INFO   DNAUSDT: neu am Bithumb-KRW-Markt, kein Bitget-Perp.",
         "2026-11-14T00:10:11.225153+00:00  INFO   Papier Upbit (delist): MANTRAUSDT SHORT 0.002625, Stop 0.00315.",
-        "2026-11-14T00:10:12.130934+00:00  INFO   Fertig. 892 Kontrakte, 0 in Beobachtung, 1 offen, 5 erledigt."
+        "2026-11-14T00:10:12.130934+00:00  INFO   Fertig. 892 Kontrakte, 0 in Beobachtung, 1 offen, 5 erledigt.",
+        "2026-11-15T00:10:01.269366+00:00  INFO   === Lauf LIVE ===",
+        "2026-11-15T00:10:02.475346+00:00  INFO   HYPEUSDT: Tag 4 von 7, Kurs 64.356, Stand … USDT.",
+        "2026-11-15T00:10:34.731636+00:00  INFO   Fertig. 892 Kontrakte, 0 in Beobachtung, 1 offen, 5 erledigt."
       ]
     },
     {
@@ -72,26 +72,26 @@
       "lauf_vor_h": 0.2,
       "exit": "0",
       "live": true,
-      "positionen": 3,
-      "ergebnis_pct": -3.17,
-      "im_markt_pct": 27,
+      "positionen": 12,
+      "ergebnis_pct": -6.09,
+      "im_markt_pct": 107,
       "fehlerzeilen": 0,
       "uebersprungen": 0,
-      "slippage_median_pct": 0.017,
-      "slippage_trades": 7,
+      "slippage_median_pct": 0.024,
+      "slippage_trades": 16,
       "log": [
-        "2026-11-14T00:15:27.769969+00:00  INFO   ADAUSDT: kein Signal — 10-Tage-Rendite -10.11 %, Schwelle -20.37 %",
-        "2026-11-14T00:15:30.332114+00:00  INFO   SOLUSDT: kein Signal — 10-Tage-Rendite -14.65 %, Schwelle -18.38 %",
-        "2026-11-14T00:15:32.835701+00:00  INFO   DOGEUSDT: kein Signal — 10-Tage-Rendite -13.57 %, Schwelle -17.19 %",
-        "2026-11-14T00:15:35.364933+00:00  INFO   DOTUSDT: kein Signal — 10-Tage-Rendite -12.00 %, Schwelle -19.97 %",
-        "2026-11-14T00:15:37.901699+00:00  INFO   AVAXUSDT: kein Signal — 10-Tage-Rendite -2.43 %, Schwelle -20.70 %",
-        "2026-11-14T00:15:40.401860+00:00  INFO   LTCUSDT: kein Signal — 10-Tage-Rendite -9.37 %, Schwelle -16.09 %",
-        "2026-11-14T00:15:42.894485+00:00  INFO   LINKUSDT: kein Signal — 10-Tage-Rendite -10.90 %, Schwelle -16.61 %",
-        "2026-11-14T00:15:45.423846+00:00  INFO   BCHUSDT: halten — Schluss 224.5700 unter SMA10 248.4830 (-2.78 %)",
-        "2026-11-14T00:15:47.948516+00:00  INFO   XLMUSDT: halten — Schluss 0.1481 unter SMA10 0.1516 (-18.88 %)",
-        "2026-11-14T00:15:50.654341+00:00  INFO   TRXUSDT: kein Signal — 10-Tage-Rendite -3.02 %, Schwelle -6.67 %",
-        "2026-11-14T00:15:53.140794+00:00  INFO   ATOMUSDT: kein Signal — 10-Tage-Rendite -1.05 %, Schwelle -17.61 %",
-        "2026-11-14T00:15:53.141298+00:00  INFO   Fertig. 0 gekauft, 0 verkauft, 0 uebersprungen."
+        "2026-11-15T00:15:37.956320+00:00  INFO   ADAUSDT: KAUFEN — 10-Tage-Rendite -20.58 % unter Schwelle -20.53 % | 159.0 @ ~0.1483 = … USDT",
+        "2026-11-15T00:15:45.328829+00:00  INFO   SOLUSDT: KAUFEN — 10-Tage-Rendite -23.60 % unter Schwelle -18.65 % | 0.3 @ ~70.3490 = … USDT",
+        "2026-11-15T00:15:53.362739+00:00  INFO   DOGEUSDT: KAUFEN — 10-Tage-Rendite -20.95 % unter Schwelle -17.63 % | 411.0 @ ~0.0576 = … USDT",
+        "2026-11-15T00:16:00.793151+00:00  INFO   DOTUSDT: KAUFEN — 10-Tage-Rendite -21.26 % unter Schwelle -20.24 % | 33.0 @ ~0.7070 = … USDT",
+        "2026-11-15T00:16:07.894936+00:00  INFO   AVAXUSDT: kein Signal — 10-Tage-Rendite -14.22 %, Schwelle -20.70 %",
+        "2026-11-15T00:16:10.789742+00:00  INFO   LTCUSDT: KAUFEN — 10-Tage-Rendite -18.04 % unter Schwelle -16.16 % | 0.5 @ ~44.6400 = … USDT",
+        "2026-11-15T00:16:18.748577+00:00  INFO   LINKUSDT: KAUFEN — 10-Tage-Rendite -20.04 % unter Schwelle -17.25 % | 2.0 @ ~8.9060 = … USDT",
+        "2026-11-15T00:16:25.830635+00:00  INFO   BCHUSDT: halten — Schluss 211.7600 unter SMA10 241.5920 (-8.33 %)",
+        "2026-11-15T00:16:28.417275+00:00  INFO   XLMUSDT: halten — Schluss 0.1395 unter SMA10 0.1487 (-23.57 %)",
+        "2026-11-15T00:16:31.012176+00:00  INFO   TRXUSDT: kein Signal — 10-Tage-Rendite -3.18 %, Schwelle -6.67 %",
+        "2026-11-15T00:16:33.655924+00:00  INFO   ATOMUSDT: kein Signal — 10-Tage-Rendite -10.83 %, Schwelle -17.61 %",
+        "2026-11-15T00:16:33.656659+00:00  INFO   Fertig. 9 gekauft, 0 verkauft, 0 uebersprungen."
       ]
     }
   ]
