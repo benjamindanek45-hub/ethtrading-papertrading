@@ -1,8 +1,9 @@
 {
   "routine": "kino",
-  "stempel": "2026-11-09T05:47:00+00:00",
-  "melden": false,
-  "kennung": "",
-  "text": "",
-  "hinweis": "20 Filme im Programm, 3 passend"
+  "stempel": "2026-11-16T05:46:37+00:00",
+  "melden": true,
+  "kennung": "kino-2026-11-16T05-21ac27",
+  "text": "Neu im Hall of Fame: How To Rob A Bank (Horror/Thriller).",
+  "hinweis": "10 Filme im Programm, 2 passend",
+  "erwartet_alle": "10d"
 }
