@@ -1,13 +1,13 @@
 {
-  "zeit": "2026-11-18T00:30:13.976207+00:00",
+  "zeit": "2026-11-19T00:30:03.978649+00:00",
   "alles_gut": true,
   "statusbot": "active",
   "server": {
     "platte_pct": 66,
-    "platte_frei": "26G",
-    "last": "0.18 0.20 0.18",
-    "speicher_frei_pct": 74,
-    "api_ms": 278,
+    "platte_frei": "25G",
+    "last": "0.10 0.14 0.16",
+    "speicher_frei_pct": 77,
+    "api_ms": 368,
     "uhr_abweichung_s": 0.1
   },
   "server_probleme": [],
@@ -49,18 +49,18 @@
       "slippage_median_pct": null,
       "slippage_trades": null,
       "log": [
-        "2026-11-16T00:10:24.124194+00:00  INFO   Fertig. 892 Kontrakte, 0 in Beobachtung, 1 offen, 5 erledigt.",
-        "2026-11-17T00:10:12.505397+00:00  INFO   === Lauf LIVE ===",
-        "2026-11-17T00:10:13.735071+00:00  INFO   HYPEUSDT: Tag 6 von 7, Kurs 69.379, Stand … USDT.",
-        "2026-11-17T00:10:36.141345+00:00  WARN   Papier Upbit: RuntimeError: api-manager.upbit.com nach 4 Versuchen: HTTPError — heute ausgelassen.",
-        "2026-11-17T00:10:37.057154+00:00  INFO   DXYUSDT: neu gelistet, wird morgen bewertet.",
-        "2026-11-17T00:10:37.058344+00:00  INFO   Fertig. 893 Kontrakte, 1 in Beobachtung, 1 offen, 5 erledigt.",
-        "2026-11-18T00:10:19.541917+00:00  INFO   === Lauf LIVE ===",
-        "2026-11-18T00:10:21.013086+00:00  INFO   HYPEUSDT: Position geschlossen (1.38).",
-        "2026-11-18T00:10:21.266583+00:00  INFO   DXYUSDT: verworfen — Umsatz 0.2 Mio unter 20, tokenisierte Aktie.",
-        "2026-11-18T00:10:42.329712+00:00  WARN   Papier Upbit: RuntimeError: api-manager.upbit.com nach 4 Versuchen: HTTPError — heute ausgelassen.",
-        "2026-11-18T00:10:43.178590+00:00  INFO   ANTUSDT: neu gelistet, wird morgen bewertet.",
-        "2026-11-18T00:10:43.179876+00:00  INFO   Fertig. 894 Kontrakte, 1 in Beobachtung, 0 offen, 6 erledigt."
+        "2026-11-19T00:10:05.388820+00:00  INFO   EWTBUSDT: neu im Binance-Spot, kein Bitget-Perp.",
+        "2026-11-19T00:10:05.388926+00:00  INFO   EWZBUSDT: neu im Binance-Spot, kein Bitget-Perp.",
+        "2026-11-19T00:10:05.389025+00:00  INFO   EWZSBUSDT: neu im Binance-Spot, kein Bitget-Perp.",
+        "2026-11-19T00:10:05.389120+00:00  INFO   IWMBUSDT: neu im Binance-Spot, kein Bitget-Perp.",
+        "2026-11-19T00:10:05.389201+00:00  INFO   MELIBUSDT: neu im Binance-Spot, kein Bitget-Perp.",
+        "2026-11-19T00:10:05.389281+00:00  INFO   NUBUSDT: neu im Binance-Spot, kein Bitget-Perp.",
+        "2026-11-19T00:10:25.818105+00:00  WARN   Papier Upbit: '카바(KAVA) 거래 유의 종목 지정 안내' vom 2026-11-16 — Lauf verpasst.",
+        "2026-11-19T00:10:26.630541+00:00  INFO   NEMUSDT: neu gelistet, wird morgen bewertet.",
+        "2026-11-19T00:10:26.630855+00:00  INFO   CCJUSDT: neu gelistet, wird morgen bewertet.",
+        "2026-11-19T00:10:26.631059+00:00  INFO   ARTYUSDT: neu gelistet, wird morgen bewertet.",
+        "2026-11-19T00:10:26.631215+00:00  INFO   IGVUSDT: neu gelistet, wird morgen bewertet.",
+        "2026-11-19T00:10:26.632554+00:00  INFO   Fertig. 898 Kontrakte, 4 in Beobachtung, 0 offen, 6 erledigt."
       ]
     },
     {
@@ -73,25 +73,25 @@
       "exit": "0",
       "live": true,
       "positionen": 12,
-      "ergebnis_pct": -1.34,
+      "ergebnis_pct": -3.87,
       "im_markt_pct": 106,
       "fehlerzeilen": 0,
       "uebersprungen": 0,
       "slippage_median_pct": 0.024,
       "slippage_trades": 16,
       "log": [
-        "2026-11-18T00:15:16.422748+00:00  INFO   ADAUSDT: halten — Schluss 0.1519 unter SMA10 0.1671 (+2.36 %)",
-        "2026-11-18T00:15:19.003148+00:00  INFO   SOLUSDT: halten — Schluss 72.4200 unter SMA10 79.4424 (+2.98 %)",
-        "2026-11-18T00:15:21.486619+00:00  INFO   DOGEUSDT: halten — Schluss 0.0584 unter SMA10 0.0646 (+1.35 %)",
-        "2026-11-18T00:15:24.062788+00:00  INFO   DOTUSDT: halten — Schluss 0.7240 unter SMA10 0.8087 (+2.26 %)",
-        "2026-11-18T00:15:26.526190+00:00  INFO   AVAXUSDT: kein Signal — 10-Tage-Rendite -13.62 %, Schwelle -20.70 %",
-        "2026-11-18T00:15:29.034277+00:00  INFO   LTCUSDT: halten — Schluss 44.3100 unter SMA10 48.3280 (-0.78 %)",
-        "2026-11-18T00:15:31.627913+00:00  INFO   LINKUSDT: halten — Schluss 9.1000 unter SMA10 9.8852 (+2.18 %)",
-        "2026-11-18T00:15:34.167945+00:00  INFO   BCHUSDT: halten — Schluss 207.5300 unter SMA10 223.3690 (-10.16 %)",
-        "2026-11-18T00:15:36.668025+00:00  INFO   XLMUSDT: halten — Schluss 0.1381 unter SMA10 0.1440 (-24.33 %)",
-        "2026-11-18T00:15:39.407106+00:00  INFO   TRXUSDT: kein Signal — 10-Tage-Rendite -3.74 %, Schwelle -6.67 %",
-        "2026-11-18T00:15:41.924471+00:00  INFO   ATOMUSDT: kein Signal — 10-Tage-Rendite -4.34 %, Schwelle -17.61 %",
-        "2026-11-18T00:15:41.925292+00:00  INFO   Fertig. 0 gekauft, 0 verkauft, 0 uebersprungen."
+        "2026-11-19T00:15:24.850520+00:00  INFO   ADAUSDT: halten — Schluss 0.1507 unter SMA10 0.1641 (+1.55 %)",
+        "2026-11-19T00:15:27.447725+00:00  INFO   SOLUSDT: halten — Schluss 73.4440 unter SMA10 77.8202 (+4.43 %)",
+        "2026-11-19T00:15:30.109265+00:00  INFO   DOGEUSDT: halten — Schluss 0.0587 unter SMA10 0.0633 (+1.91 %)",
+        "2026-11-19T00:15:32.729610+00:00  INFO   DOTUSDT: halten — Schluss 0.7170 unter SMA10 0.7913 (+1.27 %)",
+        "2026-11-19T00:15:35.431322+00:00  INFO   AVAXUSDT: kein Signal — 10-Tage-Rendite -15.44 %, Schwelle -20.70 %",
+        "2026-11-19T00:15:38.040787+00:00  INFO   LTCUSDT: halten — Schluss 43.7300 unter SMA10 47.5210 (-2.08 %)",
+        "2026-11-19T00:15:40.713702+00:00  INFO   LINKUSDT: halten — Schluss 9.0120 unter SMA10 9.7127 (+1.19 %)",
+        "2026-11-19T00:15:43.468320+00:00  INFO   BCHUSDT: halten — Schluss 206.5700 unter SMA10 219.4900 (-10.57 %)",
+        "2026-11-19T00:15:46.148180+00:00  INFO   XLMUSDT: halten — Schluss 0.1392 unter SMA10 0.1428 (-23.73 %)",
+        "2026-11-19T00:15:48.844777+00:00  INFO   TRXUSDT: kein Signal — 10-Tage-Rendite -3.48 %, Schwelle -6.67 %",
+        "2026-11-19T00:15:51.475125+00:00  INFO   ATOMUSDT: kein Signal — 10-Tage-Rendite -4.72 %, Schwelle -17.61 %",
+        "2026-11-19T00:15:51.475976+00:00  INFO   Fertig. 0 gekauft, 0 verkauft, 0 uebersprungen."
       ]
     }
   ]
