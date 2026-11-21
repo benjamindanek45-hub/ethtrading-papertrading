@@ -1,13 +1,13 @@
 {
-  "zeit": "2026-11-20T00:30:05.511062+00:00",
+  "zeit": "2026-11-21T00:30:03.170344+00:00",
   "alles_gut": true,
   "statusbot": "active",
   "server": {
     "platte_pct": 66,
     "platte_frei": "25G",
-    "last": "0.19 0.16 0.18",
-    "speicher_frei_pct": 76,
-    "api_ms": 310,
+    "last": "0.10 0.08 0.11",
+    "speicher_frei_pct": 74,
+    "api_ms": 305,
     "uhr_abweichung_s": 0.1
   },
   "server_probleme": [],
@@ -49,10 +49,6 @@
       "slippage_median_pct": null,
       "slippage_trades": null,
       "log": [
-        "2026-11-19T00:10:26.630855+00:00  INFO   CCJUSDT: neu gelistet, wird morgen bewertet.",
-        "2026-11-19T00:10:26.631059+00:00  INFO   ARTYUSDT: neu gelistet, wird morgen bewertet.",
-        "2026-11-19T00:10:26.631215+00:00  INFO   IGVUSDT: neu gelistet, wird morgen bewertet.",
-        "2026-11-19T00:10:26.632554+00:00  INFO   Fertig. 898 Kontrakte, 4 in Beobachtung, 0 offen, 6 erledigt.",
         "2026-11-20T00:10:00.275169+00:00  INFO   === Lauf LIVE ===",
         "2026-11-20T00:10:01.325948+00:00  INFO   NEMUSDT: verworfen — Umsatz 0.0 Mio unter 20, tokenisierte Aktie.",
         "2026-11-20T00:10:01.586922+00:00  INFO   CCJUSDT: verworfen — Umsatz 0.0 Mio unter 20, tokenisierte Aktie.",
@@ -60,7 +56,11 @@
         "2026-11-20T00:10:02.122406+00:00  INFO   IGVUSDT: verworfen — Umsatz 0.0 Mio unter 20, tokenisierte Aktie.",
         "2026-11-20T00:10:02.799981+00:00  INFO   ANTBUSDT: neu im Binance-Spot, kein Bitget-Perp.",
         "2026-11-20T00:10:04.497110+00:00  INFO   KNTQUSDT: neu am Bithumb-KRW-Markt, kein Bitget-Perp.",
-        "2026-11-20T00:10:27.146029+00:00  INFO   Fertig. 898 Kontrakte, 0 in Beobachtung, 0 offen, 6 erledigt."
+        "2026-11-20T00:10:27.146029+00:00  INFO   Fertig. 898 Kontrakte, 0 in Beobachtung, 0 offen, 6 erledigt.",
+        "2026-11-21T00:10:10.500903+00:00  INFO   === Lauf LIVE ===",
+        "2026-11-21T00:10:33.143966+00:00  INFO   JNJUSDT: neu gelistet, wird morgen bewertet.",
+        "2026-11-21T00:10:33.144163+00:00  INFO   AMDLUSDT: neu gelistet, wird morgen bewertet.",
+        "2026-11-21T00:10:33.145505+00:00  INFO   Fertig. 900 Kontrakte, 2 in Beobachtung, 0 offen, 6 erledigt."
       ]
     },
     {
@@ -73,25 +73,25 @@
       "exit": "0",
       "live": true,
       "positionen": 13,
-      "ergebnis_pct": -5.12,
-      "im_markt_pct": 116,
+      "ergebnis_pct": -11.48,
+      "im_markt_pct": 117,
       "fehlerzeilen": 0,
       "uebersprungen": 0,
       "slippage_median_pct": 0.028,
       "slippage_trades": 17,
       "log": [
-        "2026-11-20T00:15:15.841526+00:00  INFO   ADAUSDT: halten — Schluss 0.1523 unter SMA10 0.1611 (+2.63 %)",
-        "2026-11-20T00:15:18.468336+00:00  INFO   SOLUSDT: halten — Schluss 73.5060 unter SMA10 76.3831 (+4.52 %)",
-        "2026-11-20T00:15:21.046278+00:00  INFO   DOGEUSDT: halten — Schluss 0.0585 unter SMA10 0.0621 (+1.63 %)",
-        "2026-11-20T00:15:23.679638+00:00  INFO   DOTUSDT: halten — Schluss 0.7100 unter SMA10 0.7733 (+0.28 %)",
-        "2026-11-20T00:15:26.579949+00:00  INFO   AVAXUSDT: KAUFEN — 10-Tage-Rendite -22.60 % unter Schwelle -20.95 % | 3.3 @ ~7.0020 = … USDT",
-        "2026-11-20T00:15:33.694725+00:00  INFO   LTCUSDT: halten — Schluss 43.3400 unter SMA10 46.6380 (-2.96 %)",
-        "2026-11-20T00:15:36.272959+00:00  INFO   LINKUSDT: halten — Schluss 9.0220 unter SMA10 9.5364 (+1.30 %)",
-        "2026-11-20T00:15:38.928333+00:00  INFO   BCHUSDT: halten — Schluss 205.3900 unter SMA10 215.6650 (-11.08 %)",
-        "2026-11-20T00:15:41.533795+00:00  INFO   XLMUSDT: halten — Schluss 0.1344 unter SMA10 0.1413 (-26.39 %)",
-        "2026-11-20T00:15:44.246062+00:00  INFO   TRXUSDT: kein Signal — 10-Tage-Rendite -2.42 %, Schwelle -6.67 %",
-        "2026-11-20T00:15:46.904924+00:00  INFO   ATOMUSDT: kein Signal — 10-Tage-Rendite -8.35 %, Schwelle -17.61 %",
-        "2026-11-20T00:15:46.905321+00:00  INFO   Fertig. 1 gekauft, 0 verkauft, 0 uebersprungen."
+        "2026-11-21T00:15:16.914136+00:00  INFO   ADAUSDT: halten — Schluss 0.1399 unter SMA10 0.1578 (-5.73 %)",
+        "2026-11-21T00:15:19.381976+00:00  INFO   SOLUSDT: halten — Schluss 68.3330 unter SMA10 74.9937 (-2.84 %)",
+        "2026-11-21T00:15:21.993105+00:00  INFO   DOGEUSDT: halten — Schluss 0.0538 unter SMA10 0.0607 (-6.58 %)",
+        "2026-11-21T00:15:24.561974+00:00  INFO   DOTUSDT: halten — Schluss 0.6580 unter SMA10 0.7549 (-7.06 %)",
+        "2026-11-21T00:15:27.266834+00:00  INFO   AVAXUSDT: halten — Schluss 6.4820 unter SMA10 7.4790 (-7.40 %)",
+        "2026-11-21T00:15:30.052859+00:00  INFO   LTCUSDT: halten — Schluss 39.8900 unter SMA10 45.6100 (-10.68 %)",
+        "2026-11-21T00:15:32.729421+00:00  INFO   LINKUSDT: halten — Schluss 8.3280 unter SMA10 9.3434 (-6.49 %)",
+        "2026-11-21T00:15:35.269246+00:00  INFO   BCHUSDT: halten — Schluss 191.2600 unter SMA10 211.8840 (-17.20 %)",
+        "2026-11-21T00:15:37.868624+00:00  INFO   XLMUSDT: halten — Schluss 0.1268 unter SMA10 0.1398 (-30.52 %)",
+        "2026-11-21T00:15:40.355573+00:00  INFO   TRXUSDT: kein Signal — 10-Tage-Rendite -5.07 %, Schwelle -6.67 %",
+        "2026-11-21T00:15:42.882948+00:00  INFO   ATOMUSDT: kein Signal — 10-Tage-Rendite -12.34 %, Schwelle -17.61 %",
+        "2026-11-21T00:15:42.883477+00:00  INFO   Fertig. 0 gekauft, 0 verkauft, 0 uebersprungen."
       ]
     }
   ]
