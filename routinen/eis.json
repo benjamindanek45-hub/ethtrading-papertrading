@@ -1,9 +1,9 @@
 {
   "routine": "eis",
-  "stempel": "2026-11-22T18:22:29+00:00",
+  "stempel": "2026-11-23T18:22:20+00:00",
   "melden": true,
-  "kennung": "eis-2026-11-22T18-cfb9f1",
-  "text": "Jo Benni, morgen früh musst du kratzen - um 08:00 Uhr sind es -2 Grad.",
-  "hinweis": "2026-11-23 00:00-08:30: min -2.1 C um 08:00, morgens min -2.1 C, 9 Std kalt+klar+windstill, Wolken 0-0%, Wind bis 10 km/h, Schnee 0.0 cm",
+  "kennung": "eis-2026-11-23T18-751adf",
+  "text": "Jo Benni, morgen früh musst du kratzen - um 06:00 Uhr sind es -1 Grad.",
+  "hinweis": "2026-11-24 00:00-08:30: min -1.6 C um 00:00, morgens min -1.4 C, 1 Std kalt+klar+windstill, Wolken 4-100%, Wind bis 10 km/h, Schnee 0.0 cm",
   "erwartet_alle": "36h"
 }
