@@ -79,10 +79,35 @@ Backtest, nur mit Live-Daten. Jede Abweichung ist ein Implementierungsfehler
 und muss vor Echtgeld gefunden werden.
 
 ### 3.3 Wie gross ist die echte Slippage?
-**Die wichtigste offene Zahl.** Der Backtest nimmt 0,02 % je Seite an. Der
-Bot misst bei jedem Lauf, wie weit der Kurs um 00:02 UTC vom Schlusskurs um
-00:00 UTC abweicht. Liegt das dauerhaft über 0,04 %, muss die Renditeerwartung
-nach unten korrigiert werden.
+
+> **24.11.2026: Diese Regel war falsch spezifiziert und ist ersetzt.**
+> Ursprünglicher Wortlaut: *„Der Bot misst bei jedem Lauf, wie weit der Kurs
+> um 00:02 UTC vom Schlusskurs um 00:00 UTC abweicht. Liegt das dauerhaft
+> über 0,04 %, muss die Renditeerwartung nach unten korrigiert werden.“*
+>
+> **Warum falsch** (Prüfbericht `review/2026-11-24.md`, Abschnitt 2C):
+> 1. Gemessen wird Kursdrift durch zwei Minuten Zeitversatz, keine
+>    Ausführung. Die 0,02 % des Backtests stehen für Spread und Marktwirkung —
+>    beides kann Papier nicht messen.
+> 2. Die Drift hat Mittelwert null (92 Tage: −0,009 %, Streuung 0,075 %).
+>    Der Median ihres **Betrags** liegt bei Mittelwert null rechnerisch bei
+>    ≈ 0,05 % — die Schwelle 0,04 % reißt damit fast immer, auch an Tagen
+>    ohne Order (0,045 %). Drift zu unseren Gunsten ist kein Kostenposten.
+> 3. An den 4 Order-Tagen lag die Drift vorzeichenrichtig bei Median
+>    −0,027 % (3 von 4 zu unseren Gunsten); n = 4 trägt ohnehin keinen Median.
+> 4. Selbst wenn alles Kosten wären: 12,45-facher Jahresumschlag × 0,038 %
+>    = 0,47 % im Jahr = 4,70 € auf 1.000 €.
+>
+> **Urteil für Phase 1:** nach Wortlaut nicht bestanden, nach Zweck erfüllt —
+> kein Hinweis auf Kosten über der Annahme.
+
+**Ersatzregel ab Phase 2 (echte Orders, `livetrader.py` → `logs/ausfuehrung.csv`):**
+
+| Größe | Definition | Grenze |
+|---|---|---|
+| **Ausführungskosten** | (Fülldurchschnitt − Mitte beim Absenden) / Mitte, vorzeichenrichtig (Kauf teurer bzw. Verkauf billiger = positiv), Gebühr getrennt | **Median ≤ 0,10 % je Seite** über alle Orders der Phase |
+| Einzelorder | dieselbe Größe | **> 1 %** = Fehlersuche (Größe, dünnes Buch, Rundung) |
+| Zeitdrift | Mitte beim Absenden gegen Schluss 00:00, vorzeichenrichtig | nur protokollieren, **keine** Schwelle; ausgewertet wird allein ihr Mittelwert |
 
 ### 3.4 Handelt er so oft wie erwartet?
 Erwartung aus dem Betriebshandbuch: **3–4 Orders im Monat** für `live`
@@ -114,12 +139,51 @@ einen Feiertagszeitraum und wahrscheinlich eine Sägezahn-Phase gesehen.
 ### Abbruchgründe — dann NICHT live gehen
 
 - Ein einziger unerklärter Ausfalltag, der nicht behoben wurde
-- Slippage dauerhaft über 0,04 % im Median
+- ~~Slippage dauerhaft über 0,04 % im Median~~ (falsch spezifiziert, siehe
+  3.3) → ab Phase 2: Ausführungskosten im Median über 0,10 % je Seite
 - Signalabweichung zum Backtest, egal wie klein
 - Mehr als doppelt so viele Orders wie erwartet
 
 Nicht auf der Liste: eine negative Rendite im Papertrading. Die ist
 statistisch bedeutungslos und **kein** Abbruchgrund.
+
+### Ergebnis Phase 1 (Prüfbericht 24.11.2026)
+
+92 von 92 Läufen; der unveränderte Backtest-Code rechnet über
+25.08.–24.11.2026 an allen 92 Tagen dasselbe Signal und dieselbe Skala und
+erzeugt dieselben 4 (live) bzw. 10 (schatten) Orders. 3.1, 3.2 und 3.4
+erfüllt (nur 4 Orders, weil der Backtest über genau diese Tage auch nur 4
+erzeugt), 3.3 siehe oben. **Weiter zu Phase 2.**
+
+### Phase 2 — wie sie läuft
+
+| | |
+|---|---|
+| Bot | `livetrader.py`, importiert `signal_und_skala()` aus `papertrader.py`, Timer `ethlive.timer` 00:03 UTC |
+| Signaldaten | Binance-Tageskerzen 00:00 UTC (wie Papier und Backtest), **nicht** Bitgets `1D` |
+| Ausführung | Bitget Spot BTCUSDT, Marktorder auf die Differenz, Totband 5 pp |
+| Budget | fest `budget_usdt` in `config.json` (nur Server): 1.000 € in USDT. Der Bot führt sein **eigenes Teildepot** (eigenes USDT + eigenes BTC aus den echten Füllungen); Zielgewichte gelten für dieses Teildepot, **nie** für den Kontostand |
+| Abgleich | Börsenbestand gegen Teildepot (fehlt etwas → keine Order, Telegram); Papertrader gegen Live (Signal, Skala, Ordertag, Gewicht > 2 pp → Telegram) |
+| Zins auf USDT | weggelassen (≈ 15 €/Jahr, bräuchte ein zusätzliches Schlüsselrecht) |
+| Sperren | `live_erlaubt` setzt nur Ben; Zustand aus dem Trockenbetrieb sperrt den ersten echten Lauf, bis `--zuruecksetzen`; ein Lauf je Tag; Daten älter als 24 h → keine Order |
+| Testsperre | `tools/update_pruefen.py` prüft seit 24.11.2026 auch P1: Konstanten von papertrader/livetrader unverändert, Signal und Skala an 120 Tagen identisch |
+
+**Bewertung nach 60–90 Tagen:** 100 % Läufe · jede Live-Order = Papier-Order
+(Tag, Richtung, Ziel ± 1 pp), keine zusätzliche, keine fehlende ·
+Ausführungskosten nach 3.3 · kein unerklärter Zwischenfall. Die Rendite ist
+**kein** Kriterium.
+
+### Kontoregel für alle Bots (Ben, 24.11.2026)
+
+1. **Neue Bots kommen auf bestehende Konten** — es werden keine neuen
+   Unterkonten angelegt.
+2. Jeder Bot bekommt ein **festes Budget** und einen **eigenen API-Schlüssel**
+   mit den kleinsten nötigen Rechten (nie Auszahlen, nie Transfer,
+   IP-Bindung auf den Server).
+3. **Hand-Trades auf demselben Markt sind auf einem Bot-Konto tabu.** Ein
+   Konto mit Hand-Trades kommt für einen Bot nicht in Frage.
+4. Ein Bot rechnet nie mit dem Kontostand, sondern nur mit seinem eigenen,
+   selbst nachgeführten Bestand; der Kontostand dient dem Abgleich.
 
 ---
 
