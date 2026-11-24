@@ -1,14 +1,14 @@
 {
-  "zeit": "2026-11-24T00:30:21.170744+00:00",
+  "zeit": "2026-11-24T20:30:36.274946+00:00",
   "alles_gut": true,
   "statusbot": "active",
   "server": {
-    "platte_pct": 66,
-    "platte_frei": "25G",
-    "last": "0.37 0.32 0.18",
-    "speicher_frei_pct": 73,
-    "api_ms": 301,
-    "uhr_abweichung_s": 0.1
+    "platte_pct": 68,
+    "platte_frei": "24G",
+    "last": "0.36 0.10 0.03",
+    "speicher_frei_pct": 80,
+    "api_ms": 328,
+    "uhr_abweichung_s": 0.2
   },
   "server_probleme": [],
   "bruecke_probleme": [],
@@ -20,7 +20,7 @@
       "probleme": [],
       "hinweise": [],
       "timer": "active",
-      "lauf_vor_h": 0.5,
+      "lauf_vor_h": 20.5,
       "exit": "0",
       "live": null,
       "positionen": null,
@@ -34,11 +34,13 @@
     },
     {
       "kurz": "neulistung",
-      "name": "Projekt 4 — Neulistungen",
+      "name": "Projekt 4 â€” Neulistungen",
       "probleme": [],
-      "hinweise": [],
+      "hinweise": [
+        "Einstiegs-Slippage je Regel (Median, + = zu unseren Lasten): bithumb -0.27 % (n=2), coinbase +0.15 % (n=1), upbit +1.05 % (n=3)"
+      ],
       "timer": "active",
-      "lauf_vor_h": 0.3,
+      "lauf_vor_h": 20.3,
       "exit": "0",
       "live": true,
       "positionen": 0,
@@ -46,8 +48,8 @@
       "im_markt_pct": 0,
       "fehlerzeilen": 0,
       "uebersprungen": 0,
-      "slippage_median_pct": null,
-      "slippage_trades": null,
+      "slippage_median_pct": 0.433,
+      "slippage_trades": 6,
       "log": [
         "2026-11-21T00:10:33.145505+00:00  INFO   Fertig. 900 Kontrakte, 2 in Beobachtung, 0 offen, 6 erledigt.",
         "2026-11-22T00:10:14.539505+00:00  INFO   === Lauf LIVE ===",
@@ -65,15 +67,17 @@
     },
     {
       "kurz": "ruecklauf",
-      "name": "Projekt 3 — Ruecklauf",
+      "name": "Projekt 3 â€” Ruecklauf",
       "probleme": [],
-      "hinweise": [],
+      "hinweise": [
+        "STOP-Datei gesetzt â€” keine neuen Positionen"
+      ],
       "timer": "active",
-      "lauf_vor_h": 0.2,
+      "lauf_vor_h": 20.2,
       "exit": "0",
       "live": true,
       "positionen": 3,
-      "ergebnis_pct": -7.76,
+      "ergebnis_pct": -8.52,
       "im_markt_pct": 26,
       "fehlerzeilen": 0,
       "uebersprungen": 0,
