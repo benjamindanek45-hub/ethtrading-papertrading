@@ -153,9 +153,17 @@ statistisch bedeutungslos und **kein** Abbruchgrund.
 25.08.–24.11.2026 an allen 92 Tagen dasselbe Signal und dieselbe Skala und
 erzeugt dieselben 4 (live) bzw. 10 (schatten) Orders. 3.1, 3.2 und 3.4
 erfüllt (nur 4 Orders, weil der Backtest über genau diese Tage auch nur 4
-erzeugt), 3.3 siehe oben. **Weiter zu Phase 2.**
+erzeugt), 3.3 siehe oben. Technisch reif für Phase 2.
 
-### Phase 2 — wie sie läuft
+> **Entscheidung Ben, 24.11.2026: P1 geht NICHT live.** P1 bringt bei
+> kleinem Einsatz laut Rücktest nur ein paar Euro im Monat und ist ein
+> Risikoregler, kein Ertragsbringer (Runde 77). P1 bleibt Papertrading und
+> läuft unverändert weiter. `livetrader.py` bleibt im Repo, ist aber nicht
+> aktiv: `live_erlaubt` bleibt `false`, `ethlive.timer` ist nicht
+> eingerichtet, es gibt keinen P1-Schlüssel. Die Abschnitte unten
+> beschreiben, wie Phase 2 liefe, falls Ben das je neu entscheidet.
+
+### Phase 2 — wie sie liefe (gebaut, nicht aktiv)
 
 | | |
 |---|---|
@@ -184,6 +192,22 @@ Ausführungskosten nach 3.3 · kein unerklärter Zwischenfall. Die Rendite ist
    Konto mit Hand-Trades kommt für einen Bot nicht in Frage.
 4. Ein Bot rechnet nie mit dem Kontostand, sondern nur mit seinem eigenen,
    selbst nachgeführten Bestand; der Kontostand dient dem Abgleich.
+
+### Echtgeldregel für alle Strategien (Ben, 24.11.2026)
+
+Echtgeld nur für Strategien, die sich laut Rücktest **bei Bens Kapital
+spürbar lohnen** können. Bevor eine Strategie mit Echtgeld startet (oder
+ihr Einsatz steigt), nennt Claude Ben zwei Zahlen **in Euro** beim
+geplanten Einsatz:
+
+1. **erwarteter Ertrag je Monat** (aus dem Rücktest, mit der Spanne, wenn
+   die Jahre stark schwanken),
+2. **schlechtestes erwartetes Jahr** (schlechtestes Kalenderjahr im
+   Rücktest bzw. der größte Rückgang, je nachdem, was schlimmer ist).
+
+Ben entscheidet dann, ob es sich lohnt. Ohne diese beiden Zahlen geht
+nichts scharf. Rückwirkend angewandt auf P3 und P4 im Bericht
+`review/2026-11-25.md`.
 
 ---
 
