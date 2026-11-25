@@ -1,27 +1,30 @@
-# ETH/BTC Papertrading — Datenbruecke
+# ETHTRADING – öffentlicher Betriebsstand
 
-Automatisch befuellt vom GoldBotServer. **Nicht von Hand bearbeiten**,
-ausser im Ordner `review/`.
+Automatisch befüllt vom Bot-Server. Bitte nicht von Hand bearbeiten.
+Das eigentliche Projekt liegt in einem privaten Repository; hier stehen
+nur Zustände und Kennzahlen.
+
+## Die Bots
+
+| Bot | Betrieb |
+|---|---|
+| P1 Regime-Filter (BTC) | Papiergeld: zwei simulierte Depots, kein echtes Geld |
+| P3 Rücklauf-Korb | echtes Geld, läuft aus: keine neuen Käufe mehr, offene Positionen schließen über die normale Ausstiegsregel, danach wird der Bot abgeschaltet |
+| P4 Neulistungs-Short | echtes Geld, kleiner Einsatz |
 
 ## Was hier liegt
 
 | Pfad | Inhalt |
 |---|---|
-| `daten/taeglich.jsonl` | jeder Handelslauf vollstaendig, eine Zeile je Tag |
-| `daten/verlauf.csv` | Zeitreihe: Depotwert, Signale, Slippage |
-| `daten/depot_live.json` | Depotstand BTC 100 % |
-| `daten/depot_schatten.json` | Depotstand BTC/ETH 50/50 |
-| `referenz/` | Betriebshandbuch und Backtest-Erwartungen |
-| `review/` | **hier legt der Agent seine Berichte ab** |
+| `daten/status.json` | Tageszustand aller Bots (Timer, letzter Lauf, Warnungen, Slippage, Ergebnis in Prozent), vom Wachhund täglich um 00:30 UTC geschrieben |
+| `daten/taeglich.jsonl` | P1: jeder Lauf vollständig, eine Zeile je Tag |
+| `daten/verlauf.csv` | P1: Zeitreihe der simulierten Depots, Signale, Slippage |
+| `daten/depot_live.json` | P1: simuliertes Depot BTC 100 % |
+| `daten/depot_schatten.json` | P1: simuliertes Vergleichsdepot BTC/ETH 50/50 |
+| `referenz/` | P1: Betriebshandbuch und Erwartungen aus dem Rücktest |
+| `review/` | Prüfberichte; der Server leitet neue `review/JJJJ-MM-TT.md` einmal an Telegram weiter |
+| `routinen/` | Daten der Alltagsroutinen, `routinen/quittungen/` deren Zustellvermerke |
 
-## Fuer den Agenten
+## Was hier nicht liegt
 
-Ein Bericht als `review/JJJJ-MM-TT.md` wird vom Server beim naechsten
-taeglichen Lauf erkannt und automatisch an Telegram weitergeleitet — genau
-einmal. Der Agent schickt selbst nichts an Telegram; das Token liegt nur
-auf dem Server.
-
-## Was hier NICHT liegt
-
-Keine Zugangsdaten, keine Schluessel, kein echtes Geld. Dies ist reines
-Papertrading: simulierte Depots mit je 10.000 EUR fiktivem Kapital.
+Keine Zugangsdaten, Schlüssel oder Tokens und keine Kontostände.
