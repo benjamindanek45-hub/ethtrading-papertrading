@@ -1,9 +1,9 @@
 {
   "routine": "tanken",
-  "stempel": "2026-11-25T17:45:31+00:00",
-  "melden": true,
-  "kennung": "tanken-2026-11-25T17-63ccaf",
-  "text": "E5 1.829 bei STAR in Moers, Lintforter Straße 61 - 3 Cent unter dem besten Preis der letzten Tage, 4.1 km entfernt.",
-  "hinweis": "1.829 EUR bei 14 offenen Stellen; bester Tagestiefstpreis 1.859 aus 7 Tagen, Schwelle 1.839; 288 Messungen",
+  "stempel": "2026-11-25T18:16:28+00:00",
+  "melden": false,
+  "kennung": "",
+  "text": "",
+  "hinweis": "nur Messung, keine Zustellung faellig | 1.819 EUR bei 14 offenen Stellen; bester Tagestiefstpreis 1.859 aus 7 Tagen, Schwelle 1.839; 288 Messungen",
   "erwartet_alle": "12h"
 }
